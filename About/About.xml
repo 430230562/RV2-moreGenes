@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+	<name>RimVore2-more-genes</name>
+	<author>Pardon</author>
+	<packageId>Pardon.RV2MG</packageId>
+	<description>添加了大量和吞噬有关的基因</description>
+	<!-- See https://ludeon.com/forums/index.php?topic=43151.0 for description rich text -->
+	<supportedVersions>
+		<li>1.6</li>
+	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>Nabber.RimVore2</packageId>
+			<displayName>RimVore-2</displayName>
+			<downloadUrl>https://gitlab.com/Nabber/rimvore-2.git</downloadUrl>
+		</li>
+		<li>
+			<packageId>MamaHorseteeth.RimVore2ExtraVores</packageId>
+			<displayName>RimVore-2 (Overstuffed)</displayName>
+		</li>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>Ludeon.RimWorld.Biotech</packageId>
+			<displayName>Biotech</displayName>
+		</li>
+		<li>
+			<packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+			<displayName>Vanilla Expanded Framework</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2023507013</steamWorkshopUrl>
+		</li>
+		<li>
+			<displayName>RimVore2-pardon's-Extend</displayName>
+			<packageId>Pardon.PRV2E</packageId>
+		</li>
+	</modDependencies>
+	<incompatibleWith />
+	<loadAfter>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<li>Ludeon.RimWorld.Biotech</li>
+		<li>Ludeon.RimWorld.Anomaly</li>
+		<li>Ludeon.RimWorld.Odyssey</li>
+
+		<li>brrainz.harmony</li>
+		<li>imranfish.xmlextensions</li>
+
+		<li>erdelf.HumanoidAlienRaces</li>
+
+		<li>Nabber.RimVore2</li>
+		<li>MamaHorseteeth.RimVore2ExtraVores</li>
+		<li>RimVore - 2Bulges</li>
+		<li>MisTF.Piss</li>
+		<li>MisTF.Scat</li>
+		<li>Nabber.CarnivorousPlants</li>
+		<li>Whatif12.RV2Reformers</li>
+		<li>Nabber.CumSlimes</li>
+		<li>Nabber.CumSlimesArePeopleToo</li>
+		<li>Rutrix.RimVore2Interactions</li>
+		<li>Rutrix.RutsRimVoreStuff</li>
+		<li>Esegn.RV2EADD</li>
+		<li>Pardon.PRV2E</li>
+
+	</loadAfter>
+</ModMetaData>

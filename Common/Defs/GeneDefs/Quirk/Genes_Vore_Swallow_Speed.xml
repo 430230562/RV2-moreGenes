@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- Swallow Speed: Instantaneous (via quirk) -->
+    <GeneDef>
+        <defName>RV2_Hediff_QuirkForce_Cheat_InstantSwallow</defName>
+        <label>Instant Swallow</label>
+        <description>This pawn inhales prey like they are drowning and the prey are air.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/SwallowSpeed/6</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff" MayRequire="pardon.prv2e">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_Cheat_InstantSwallow</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>SwallowSpeed</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_General</displayCategory>
+        <displayOrderInCategory>0</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+        <biostatArc>2</biostatArc>
+    </GeneDef>
+
+    <!-- ========== Swallow Speed ========== -->
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_SwallowSpeed_VeryGood</defName>
+        <label>Speed-slurper</label>
+        <description>This pawn belts down prey at about four times the speed of other predators. It
+            could dominate a prey-swallowing contest.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/SwallowSpeed/5</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_SwallowSpeed_VeryGood</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>SwallowSpeed</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_General</displayCategory>
+        <displayOrderInCategory>1</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_SwallowSpeed_Good</defName>
+        <label>Quick eater</label>
+        <description>This pawn puts prey away quickly, at about twice the speed of other predators.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/SwallowSpeed/4</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_SwallowSpeed_Good</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>SwallowSpeed</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_General</displayCategory>
+        <displayOrderInCategory>2</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_SwallowSpeed_Normal</defName>
+        <label>Normal swallow speed</label>
+        <description>This pawn swallows prey at an average speed.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/SwallowSpeed/3</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_SwallowSpeed_Normal</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>SwallowSpeed</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_General</displayCategory>
+        <displayOrderInCategory>3</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+        <biostatCpx>0</biostatCpx>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_SwallowSpeed_Bad</defName>
+        <label>Slow eater</label>
+        <description>This pawn takes prey in at a leisurely pace, half as quick as other predators.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/SwallowSpeed/2</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_SwallowSpeed_Bad</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>SwallowSpeed</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_General</displayCategory>
+        <displayOrderInCategory>4</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_SwallowSpeed_VeryBad</defName>
+        <label>Lollygagger</label>
+        <description>This pawn has to devour prey real slowly, at about a quarter the speed of other
+            predators, lest its body reject its prey.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/SwallowSpeed/1</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_SwallowSpeed_VeryBad</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>SwallowSpeed</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_General</displayCategory>
+        <displayOrderInCategory>5</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+
+</Defs>
