@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_GoalSwitching_Enabled</defName>
+        <label>Mischievous</label>
+        <description>This pawn is mischievous at heart. It may propose one kind of vore to someone and then pull a fast one and do something entirely different.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>GoalSwitching_Enabled</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+        <!-- ==================== Post-Vore Abilities ==================== -->
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_PostVoreAbilities_SkillAbsorb</defName>
+        <label>Skill absorb</label>
+        <description>This pawn has a 20% chance of absorbing experience from its prey's highest skill.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>PostVoreAbilities_SkillAbsorb</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_PostVoreAbilities_PsyfocusGainPrey</defName>
+        <label>Psyfocus gain (prey)</label>
+        <description>This pawn has a 20% chance of gaining psyfocus after being vored.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>PostVoreAbilities_PsyfocusGainPrey</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_PostVoreAbilities_PsyfocusGainPredator</defName>
+        <label>Psyfocus gain (predator)</label>
+        <description>This pawn has a 20% chance of gaining psyfocus after doing vore.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>PostVoreAbilities_PsyfocusGainPredator</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_PostVoreAbilities_TraitAbsorb</defName>
+        <label>Trait absorb</label>
+        <description>This pawn has a 20% chance of absorbing a random trait from its prey.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>PostVoreAbilities_TraitAbsorb</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+</Defs>

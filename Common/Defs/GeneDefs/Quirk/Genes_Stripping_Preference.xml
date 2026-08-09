@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- 这不是一个高效的方法 -->
+<Defs>
+    <!-- ==================== Stripping Preference (Predator) ==================== -->
+       <!-- ==================== Stripping Preference (Predator) ==================== -->
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_StrippingPreference_Predator_MothTongue</defName>
+        <label>Moth's tongue</label>
+        <description>This pawn prefers the taste of fabric to skin (whether or not it actually enjoys fabric), and will keep its prey in whatever garb they come.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>StrippingPreference_Predator_MothTongue</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_StrippingPreference_Predator_None</defName>
+        <label>Hyphaphagic ambivalence</label>
+        <description>This pawn does not care whether their prey is clothed or not.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>StrippingPreference_Predator_None</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_StrippingPreference_Predator_SkinTaster</defName>
+        <label>Skin-taster</label>
+        <description>This pawn savors the flavor of skin, and will always peel the wrapper off its prey, if given the opportunity.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>StrippingPreference_Predator_SkinTaster</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <!-- ==================== Stripping Preference (Prey) ==================== -->
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_StrippingPreference_Prey_Nude</defName>
+        <label>Commando prey</label>
+        <description>This pawn hates it when a layer of sopping-wet clothes gets between itself and its predator. Leaving the clothes behind also makes washing up easier.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>StrippingPreference_Prey_Nude</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_StrippingPreference_Prey_None</defName>
+        <label>Clothing ambivalence</label>
+        <description>This pawn does not care if they are nude or clothed when being devoured.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>StrippingPreference_Prey_None</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_StrippingPreference_Prey_NeverNude</defName>
+        <label>Nevernude prey</label>
+        <description>This pawn prefers to have a protective and modest layer of clothes between itself and its predator.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>StrippingPreference_Prey_NeverNude</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    
+</Defs>

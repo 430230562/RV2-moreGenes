@@ -40,4 +40,93 @@
         <biostatMet>0</biostatMet>
     </GeneDef>
 
+        <!-- ==================== Post-Vore Abilities ==================== -->
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_PostVoreAbilities_SkillAbsorb</defName>
+        <label>Skill absorb</label>
+        <description>This pawn has a 20% chance of absorbing experience from its prey's highest skill.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/PostVoreAbilities/14</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_PostVoreAbilities_SkillAbsorb</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>PostVoreAbilities_SkillAbsorb</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_General</displayCategory>
+        <displayOrderInCategory>110</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_PostVoreAbilities_PsyfocusGainPrey</defName>
+        <label>Psyfocus gain (prey)</label>
+        <description>This pawn has a 20% chance of gaining psyfocus after being vored.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/PostVoreAbilities/15</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_PostVoreAbilities_PsyfocusGainPrey</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>PostVoreAbilities_PsyfocusGainPrey</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_General</displayCategory>
+        <displayOrderInCategory>120</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_PostVoreAbilities_PsyfocusGainPredator</defName>
+        <label>Psyfocus gain (predator)</label>
+        <description>This pawn has a 20% chance of gaining psyfocus after doing vore.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/PostVoreAbilities/16</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_PostVoreAbilities_PsyfocusGainPredator</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>PostVoreAbilities_PsyfocusGainPredator</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_General</displayCategory>
+        <displayOrderInCategory>130</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_PostVoreAbilities_TraitAbsorb</defName>
+        <label>Trait absorb</label>
+        <description>This pawn has a 20% chance of absorbing a random trait from its prey.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/PostVoreAbilities/17</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_PostVoreAbilities_TraitAbsorb</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>PostVoreAbilities_TraitAbsorb</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_General</displayCategory>
+        <displayOrderInCategory>140</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+
 </Defs>

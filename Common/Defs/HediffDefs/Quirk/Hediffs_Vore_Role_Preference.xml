@@ -1,4 +1,334 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
 <!-- 这不是一个高效的方法 -->
-<Defs></Defs>
+<Defs>
+    <!-- ==================== Predator Disposition ==================== -->
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_PredatorDisposition_Obsessed</defName>
+        <label>Ravenous predator</label>
+        <description>This pawn imagines itself as an apex predator, sitting proud at the top of the food chain. It lives to prey on those around it.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>PredatorDisposition_Obsessed</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_PredatorDisposition_Likes</defName>
+        <label>Predator</label>
+        <description>This pawn is a predator, always scanning the scene for prey to devour.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>PredatorDisposition_Likes</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_PredatorDisposition_Neutral</defName>
+        <label>Predatory ambivalence</label>
+        <description>This pawn doesn't really care one way or the other about being a predator.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>PredatorDisposition_Neutral</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_PredatorDisposition_Dislikes</defName>
+        <label>Predatory aversion</label>
+        <description>This pawn is not much of a predator and doesn't want to devour anyone. It'd have to be for convenience, survival, or really scratching an uncommon itch.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>PredatorDisposition_Dislikes</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_PredatorDisposition_Refuses</defName>
+        <label>Predatory refusal</label>
+        <description>This pawn is not a predator and will never willingly devour anyone.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>PredatorDisposition_Refuses</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <!-- ==================== Feeder Disposition (Predator) ==================== -->
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_FeederDisposition_Predator_Obsessed</defName>
+        <label>Spoonfed</label>
+        <description>This pawn loves gobbling up prey, but hates the effort involved in chasing them down. Having someone else do it for them sounds delightful.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>FeederDisposition_Predator_Obsessed</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_FeederDisposition_Predator_Likes</defName>
+        <label>Receptive</label>
+        <description>This pawn likes the idea of having prey fed to them with no extra effort involved.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>FeederDisposition_Predator_Likes</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_FeederDisposition_Predator_Neutral</defName>
+        <label>Ambivalence</label>
+        <description>This pawn doesn't really care if they have to track down their own prey or be fed.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>FeederDisposition_Predator_Neutral</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_FeederDisposition_Predator_Dislikes</defName>
+        <label>Unreceptive</label>
+        <description>This pawn prefers to ask its own prey for vore.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>FeederDisposition_Predator_Dislikes</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_FeederDisposition_Predator_Refuses</defName>
+        <label>Picky Eater</label>
+        <description>This pawn is fully grown and self-reliant. Feeding prey to it is insulting when it can just get the prey itself.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>FeederDisposition_Predator_Refuses</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <!-- ==================== Prey Disposition ==================== -->
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_PreyDisposition_Obsessed</defName>
+        <label>Preyslut</label>
+        <description>This pawn is more comfortable inside of someone's body than outside. It would spend its whole life there if it could.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>PreyDisposition_Obsessed</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_PreyDisposition_Likes</defName>
+        <label>Prey</label>
+        <description>This pawn is turned on by the prospect of being devoured alive, constantly scanning for some pred or other to scoop it up.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>PreyDisposition_Likes</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_PreyDisposition_Neutral</defName>
+        <label>Preyish ambivalence</label>
+        <description>This pawn doesn't really care one way or the other about being prey.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>PreyDisposition_Neutral</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_PreyDisposition_Dislikes</defName>
+        <label>Preyish aversion</label>
+        <description>This pawn isn't that interested in getting devoured. It'd have to be for convenience, survival, or really scratching an uncommon itch.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>PreyDisposition_Dislikes</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_PreyDisposition_Refuses</defName>
+        <label>Preyish refusal</label>
+        <description>This pawn has absolutely no desire to get devoured at all. It insists that it is not food.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>PreyDisposition_Refuses</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <!-- ==================== Feeder Disposition (Prey) ==================== -->
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_FeederDisposition_Prey_Obsessed</defName>
+        <label>Intro(vore)ted</label>
+        <description>This pawn is extremely intro(vore)ted and needs someone else to hook it up to a predator.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>FeederDisposition_Prey_Obsessed</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_FeederDisposition_Prey_Likes</defName>
+        <label>Snack</label>
+        <description>This pawn likes blind dates with its predator.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>FeederDisposition_Prey_Likes</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_FeederDisposition_Prey_Neutral</defName>
+        <label>Feeder ambivalence</label>
+        <description>This pawn doesn't really care if it is being fed to someone.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>FeederDisposition_Prey_Neutral</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_FeederDisposition_Prey_Dislikes</defName>
+        <label>Fodder aversion</label>
+        <description>This pawn doesn't want to be a bother, so they'd rather not have someone spend their time introducing them to a pred.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>FeederDisposition_Prey_Dislikes</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_FeederDisposition_Prey_Refuses</defName>
+        <label>Fodder refusal</label>
+        <description>This pawn hates the idea of being fed to someone else. It wants to pick its own holes to jump into.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>FeederDisposition_Prey_Refuses</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <!-- ==================== Feeder Disposition (独立角色) ==================== -->
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_FeederDisposition_Obsessed</defName>
+        <label>Frenzied feeder</label>
+        <description>This pawn finds little in this world more rewarding than handling all the busywork for a predator, up to and including hand-feeding said pred some prey.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>FeederDisposition_Obsessed</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_FeederDisposition_Likes</defName>
+        <label>Feeder</label>
+        <description>This pawn likes to help preds out with their hunting by fetching the prey for them.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>FeederDisposition_Likes</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_FeederDisposition_Neutral</defName>
+        <label>Feeder ambivalence</label>
+        <description>This pawn doesn't really care one way or the other about hand-feeding predators.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>FeederDisposition_Neutral</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_FeederDisposition_Dislikes</defName>
+        <label>Feeder aversion</label>
+        <description>This pawn dislikes hand-feeding predators and would rather the predator just got their food themself.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>FeederDisposition_Dislikes</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_FeederDisposition_Refuses</defName>
+        <label>Feeder refusal</label>
+        <description>This pawn hates hand-feeding predators and will not willingly do it. That's just an elaborate way to get eaten last.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>FeederDisposition_Refuses</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+</Defs>

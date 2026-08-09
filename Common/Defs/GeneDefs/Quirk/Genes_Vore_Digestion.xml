@@ -302,6 +302,119 @@
         <biostatMet>0</biostatMet>
     </GeneDef>
 
+        <!-- ==================== Item Damage ==================== -->
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_ItemDamage_Default</defName>
+        <label>Normal item damage</label>
+        <description>This pawn damages clothing and implants to a normal degree. The stomach wasn't necessarily designed to digest tough fiber and machined plasteel, but neither were clothes and delicate mechanisms necessarily designed to survive a long acid bath.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/ItemDamage/6</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_ItemDamage_Default</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>ItemDamage</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Digestion</displayCategory>
+        <displayOrderInCategory>6</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+        <biostatCpx>0</biostatCpx>
+        <hidden>true</hidden>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_ItemDamage_Traceless</defName>
+        <label>Traceless digestion</label>
+        <description>This pawn leaves no trace of its prey when it is done digesting. Clothing, implants, power armor? It all turns to mush, if anything at all.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/ItemDamage/7</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_ItemDamage_Traceless</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>ItemDamage</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Digestion</displayCategory>
+        <displayOrderInCategory>7</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_ItemDamage_Moth</defName>
+        <label>Mothlike digestion</label>
+        <description>This pawn has a habit of melting the clothes and prosthetics off its prey when digesting them. Their innards are just so harsh on such petty accessories.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/ItemDamage/8</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_ItemDamage_Moth</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>ItemDamage</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Digestion</displayCategory>
+        <displayOrderInCategory>8</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_ItemDamage_FiberFriendly</defName>
+        <label>Fiber-friendly digestion</label>
+        <description>This pawn's digestive system isn't all that harsh on clothing and other accessories its gurgled prey might have. That's not to say that they'll come out completely unscathed, however.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/ItemDamage/9</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_ItemDamage_FiberFriendly</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>ItemDamage</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Digestion</displayCategory>
+        <displayOrderInCategory>9</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_ItemDamage_Spotless</defName>
+        <label>Spotless digestion</label>
+        <description>This pawn has such a clean and purpose-driven digestive system that it can digest prey clean out of their clothes, leaving such vestments not only undamaged, but just as spotless as when they were donned. The same goes for implants and so on.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/ItemDamage/10</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_ItemDamage_Spotless</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>ItemDamage</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Digestion</displayCategory>
+        <displayOrderInCategory>10</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+
     <!-- ==================== Inabilities ==================== -->
     <GeneDef>
         <defName>RV2_Gene_QuirkForce_Inability_PredEndoOnly</defName>

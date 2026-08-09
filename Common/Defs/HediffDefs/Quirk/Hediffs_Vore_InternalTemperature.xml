@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs> 
+        <!-- ==================== Internal Temperature ==================== -->
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_InternalTemperature_Scorching</defName>
+        <label>Scorching</label>
+        <description>This pawn's insides are extremely hot (1000°C / 1832°F), any prey inside will be instantly cooked.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>InternalTemperature_Scorching</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_InternalTemperature_Hot</defName>
+        <label>Hot guts</label>
+        <description>This pawn's insides are dangerously hot (60°C / 140°F), any prey inside is liable to suffer from heatstroke.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>InternalTemperature_Hot</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_InternalTemperature_Warm</defName>
+        <label>Warm</label>
+        <description>This pawn's insides are warmer than usual insides (40°C / 104°F), prey inside may suffer from heatstroke after prolonged vore.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>InternalTemperature_Warm</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_InternalTemperature_Normal</defName>
+        <label>Normal</label>
+        <description>This pawn's insides are just as warm as any other pawns.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>InternalTemperature_Normal</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_InternalTemperature_Cold</defName>
+        <label>Cold</label>
+        <description>This pawn's insides are colder than usual (12°C / 53.6°F), long vores may lead to pawns suffering from frostbite.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>InternalTemperature_Cold</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_InternalTemperature_Freezing</defName>
+        <label>Freezer</label>
+        <description>This pawn's insides are freezing (0°C / 32°F), some genetic mutation lowers them to freezing temperatures.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>InternalTemperature_Freezing</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_InternalTemperature_AbsoluteZero</defName>
+        <label>Absolute Zero</label>
+        <description>This pawn's insides are at absolute zero (-273°C / -459°F), prey inside will be frozen solid instantly.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>InternalTemperature_AbsoluteZero</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+</Defs>

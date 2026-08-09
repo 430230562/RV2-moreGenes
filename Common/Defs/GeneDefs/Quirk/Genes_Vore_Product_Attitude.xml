@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- 这不是一个高效的方法 -->
+<Defs>
+
+<!-- ==================== Vore Product Preferences ==================== -->
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_ProductPreference_Loves</defName>
+        <label>Processed pawn connoisseur</label>
+        <description>This pawn loves to consume the treats dispensed by predators, who have so skillfully churned their prey into thick batter and creamy milk.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>ProductPreference_Loves</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_ProductPreference_Likes</defName>
+        <label>Processed pawn taste</label>
+        <description>This pawn likes to consume the remains of prey who have been churned into tasty beverages.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>ProductPreference_Likes</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_ProductPreference_Neutral</defName>
+        <label>Processed pawn ambivalence</label>
+        <description>This pawn doesn't care one way or the other about consuming the remains of prey who have been churned into edibles.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>ProductPreference_Neutral</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_ProductPreference_Dislikes</defName>
+        <label>Processed pawn distaste</label>
+        <description>This pawn dislikes consuming the remains of prey who have been churned into edibles. It's a waste of good food.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>ProductPreference_Dislikes</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_ProductPreference_Hates</defName>
+        <label>Processed pawn disgust</label>
+        <description>This pawn hates consuming the remains of prey who have been churned into edibles. It's a profane alchemy that mustn't grace its tongue.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>ProductPreference_Hates</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+</Defs>

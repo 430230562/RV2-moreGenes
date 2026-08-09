@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <!-- ==================== Nutrition Efficiency (Predator) ==================== -->
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_NutritionEfficiency_Godlike</defName>
+        <label>Godlike Efficiency</label>
+        <description>Is it magic? Archotech implants? Who knows! At the end of the day, all that really matters is that this pawn is capable of feeding or fertilizing an entire colony on its own.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>NutritionEfficiency_Godlike</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_NutritionEfficiency_VeryGood</defName>
+        <label>Industrial efficiency</label>
+        <description>This pawn is about twice as efficient at gaining nourishment and producing materials from prey as other predators. It uses the whole muffalo.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>NutritionEfficiency_VeryGood</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_NutritionEfficiency_Good</defName>
+        <label>Efficient</label>
+        <description>This pawn is about 150% as efficient at gaining nourishment and producing materials from prey as other predators. Its body just knows how to coax a little more nutrition out of the marrows and ligaments of its prey.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>NutritionEfficiency_Good</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_NutritionEfficiency_Normal</defName>
+        <label>Normal efficiency</label>
+        <description>This pawn is as efficient as other predators.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>NutritionEfficiency_Normal</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_NutritionEfficiency_Bad</defName>
+        <label>Inefficient</label>
+        <description>This pawn is about 75% as efficient at gaining nourishment and producing materials from prey as other predators. Its body just isn't as good at breaking down all those tough, unchewed tissues into something nutritious.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>NutritionEfficiency_Bad</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_NutritionEfficiency_VeryBad</defName>
+        <label>Very inefficient</label>
+        <description>This pawn is about half as efficient at gaining nourishment and producing materials from prey as other predators. It needs to eat a lot of people to stay full.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>NutritionEfficiency_VeryBad</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <!-- ==================== Prey Nutrition (Prey) ==================== -->
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_PreyNutrition_VeryGood</defName>
+        <label>Very nutritious</label>
+        <description>This pawn is about twice as nutritious as other prey. The best kind of ration around!</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>PreyNutrition_VeryGood</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_PreyNutrition_Good</defName>
+        <label>Nutritious</label>
+        <description>This pawn is about 150% as nutritious as other prey. It'll keep a pred full for a while.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>PreyNutrition_Good</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_PreyNutrition_Normal</defName>
+        <label>Normal nutritiousness</label>
+        <description>This pawn is as nutritious as other prey.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>PreyNutrition_Normal</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_PreyNutrition_Bad</defName>
+        <label>Unnutritious</label>
+        <description>This pawn is about 75% as nutritious as other prey. It wouldn't make for good livestock.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>PreyNutrition_Bad</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_PreyNutrition_VeryBad</defName>
+        <label>Junk prey</label>
+        <description>This pawn is about half as nutritious as other prey. You'd get a better meal out of a vending machine.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>PreyNutrition_VeryBad</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+</Defs>
