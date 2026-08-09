@@ -18,4 +18,26 @@
         <displayOrderInCategory>0</displayOrderInCategory>
     </GeneDef>
 
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_GoalSwitching_Enabled</defName>
+        <label>Mischievous</label>
+        <description>This pawn is mischievous at heart. It may propose one kind of vore to someone and then pull a fast one and do something entirely different.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/GoalSwitching</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_GoalSwitching_Enabled</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>GoalSwitching</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_General</displayCategory>
+        <displayOrderInCategory>100</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+
 </Defs>

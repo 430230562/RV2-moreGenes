@@ -521,4 +521,660 @@
         <biostatMet>0</biostatMet>
     </GeneDef>
 
+        <!-- ========== Predator Gender Preference ========== -->
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_GenderPreference_Predator_FemaleOnly</defName>
+        <label>Exclusive Gynophage</label>
+        <description>This pawn exclusively prefers female prey, and will never willingly eat a man.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/GenderPreference_Predator/1</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_GenderPreference_Predator_FemaleOnly</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>GenderPreference_Predator</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Predator_Preference</displayCategory>
+        <displayOrderInCategory>41</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_GenderPreference_Predator_FemalePreferred</defName>
+        <label>Gynophagic Tendencies</label>
+        <description>This pawn prefers female prey, but may make occasional exceptions.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/GenderPreference_Predator/2</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_GenderPreference_Predator_FemalePreferred</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>GenderPreference_Predator</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Predator_Preference</displayCategory>
+        <displayOrderInCategory>42</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_GenderPreference_Predator_Neutral</defName>
+        <label>Gender Indifferent</label>
+        <description>The gender of their prey is not a consideration for this pawn. Prey is prey; doesn't matter what they look like.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/GenderPreference_Predator/3</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_GenderPreference_Predator_Neutral</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>GenderPreference_Predator</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Predator_Preference</displayCategory>
+        <displayOrderInCategory>43</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+        <biostatCpx>0</biostatCpx>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_GenderPreference_Predator_MalePreferred</defName>
+        <label>Androphagic Tendencies</label>
+        <description>This pawn prefers male prey, but may make occasional exceptions.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/GenderPreference_Predator/4</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_GenderPreference_Predator_MalePreferred</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>GenderPreference_Predator</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Predator_Preference</displayCategory>
+        <displayOrderInCategory>44</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_GenderPreference_Predator_MaleOnly</defName>
+        <label>Exclusive Androphage</label>
+        <description>This pawn exclusively prefers male prey, and will never willingly eat a woman.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/GenderPreference_Predator/5</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_GenderPreference_Predator_MaleOnly</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>GenderPreference_Predator</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Predator_Preference</displayCategory>
+        <displayOrderInCategory>45</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+    
+    <!-- ==================== Predator Goal Preference: Digest ==================== -->
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_GoalPreference_Predator_Digest_Obsessed</defName>
+        <label>Obsessive fondeur</label>
+        <description>As an obsessive fondeur, this pawn loves digestion and all manner of conversion into bodily fluids, to the neglect of other goals.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/GoalPreference_Predator_Digest/1</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_GoalPreference_Predator_Digest_Obsessed</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>GoalPreference_Predator_Digest</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Predator_Preference</displayCategory>
+        <displayOrderInCategory>61</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_GoalPreference_Predator_Digest_Likes</defName>
+        <label>Fondeur</label>
+        <description>As a fondeur, this pawn likes the feeling of prey digesting into mush, or milk, or spunk, or what-have-you: to feel the struggle cease, and the hard lumps go soft.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/GoalPreference_Predator_Digest/2</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_GoalPreference_Predator_Digest_Likes</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>GoalPreference_Predator_Digest</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Predator_Preference</displayCategory>
+        <displayOrderInCategory>62</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_GoalPreference_Predator_Digest_Neutral</defName>
+        <label>Digestion ambivalence</label>
+        <description>This pawn doesn't really care one way or the other about digesting prey.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/GoalPreference_Predator_Digest/3</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_GoalPreference_Predator_Digest_Neutral</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>GoalPreference_Predator_Digest</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Predator_Preference</displayCategory>
+        <displayOrderInCategory>63</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+        <biostatCpx>0</biostatCpx>
+        <hidden>true</hidden>
+    </GeneDef>
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_GoalPreference_Predator_Digest_Dislikes</defName>
+        <label>Digestion aversion</label>
+        <description>This pawn dislikes digesting prey. It takes no enjoyment out of gurgling a life away and would rather its prey left intact.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/GoalPreference_Predator_Digest/4</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_GoalPreference_Predator_Digest_Dislikes</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>GoalPreference_Predator_Digest</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Predator_Preference</displayCategory>
+        <displayOrderInCategory>64</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_GoalPreference_Predator_Digest_Refuses</defName>
+        <label>Digestion disgust</label>
+        <description>This pawn hates digesting prey. What an act of unimaginable cruelty!</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/GoalPreference_Predator_Digest/5</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_GoalPreference_Predator_Digest_Refuses</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>GoalPreference_Predator_Digest</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Predator_Preference</displayCategory>
+        <displayOrderInCategory>65</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+
+    <!-- ==================== Predator Goal Preference: Pleasure ==================== -->
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_GoalPreference_Predator_Pleasure_Obsessed</defName>
+        <label>Obsessive plaire</label>
+        <description>This pawn loves to pleasure-vore prey. It seeks little else besides the usage of its body as an engine of pleasure.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/GoalPreference_Predator_Pleasure/1</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_GoalPreference_Predator_Pleasure_Obsessed</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>GoalPreference_Predator_Pleasure</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Predator_Preference</displayCategory>
+        <displayOrderInCategory>66</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_GoalPreference_Predator_Pleasure_Likes</defName>
+        <label>Plaire</label>
+        <description>This pawn likes to pleasure-vore prey, with a sensual tour of its body.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/GoalPreference_Predator_Pleasure/2</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_GoalPreference_Predator_Pleasure_Likes</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>GoalPreference_Predator_Pleasure</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Predator_Preference</displayCategory>
+        <displayOrderInCategory>67</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_GoalPreference_Predator_Pleasure_Neutral</defName>
+        <label>Pleasure ambivalence</label>
+        <description>This pawn doesn't really care one way or the other about pleasuring prey.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/GoalPreference_Predator_Pleasure/3</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_GoalPreference_Predator_Pleasure_Neutral</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>GoalPreference_Predator_Pleasure</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Predator_Preference</displayCategory>
+        <displayOrderInCategory>68</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+        <biostatCpx>0</biostatCpx>
+        <hidden>true</hidden>
+    </GeneDef>
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_GoalPreference_Predator_Pleasure_Dislikes</defName>
+        <label>Chaste predator</label>
+        <description>This pawn dislikes pleasuring prey. Maybe it's squeamish about letting prey get lewd inside it; maybe it just doesn't enjoy it like prey do.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/GoalPreference_Predator_Pleasure/4</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_GoalPreference_Predator_Pleasure_Dislikes</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>GoalPreference_Predator_Pleasure</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Predator_Preference</displayCategory>
+        <displayOrderInCategory>69</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_GoalPreference_Predator_Pleasure_Refuses</defName>
+        <label>Celibate predator</label>
+        <description>This pawn hates pleasuring prey. Vore is not to be treated as a fancy sex position.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/GoalPreference_Predator_Pleasure/5</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_GoalPreference_Predator_Pleasure_Refuses</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>GoalPreference_Predator_Pleasure</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Predator_Preference</displayCategory>
+        <displayOrderInCategory>70</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+
+    <!-- ==================== Predator Goal Preference: Store ==================== -->
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_GoalPreference_Predator_Store_Obsessed</defName>
+        <label>Geolier hoarder</label>
+        <description>As a geolier, this pawn loves to hold onto prey for as long as possible, and would be delighted to store as many people as can be fit inside of it forever.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/GoalPreference_Predator_Store/1</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_GoalPreference_Predator_Store_Obsessed</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>GoalPreference_Predator_Store</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Predator_Preference</displayCategory>
+        <displayOrderInCategory>71</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_GoalPreference_Predator_Store_Likes</defName>
+        <label>Geolier</label>
+        <description>As a geolier, this pawn likes to hold onto prey for as long as possible. It would make a good jail cell.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/GoalPreference_Predator_Store/2</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_GoalPreference_Predator_Store_Likes</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>GoalPreference_Predator_Store</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Predator_Preference</displayCategory>
+        <displayOrderInCategory>72</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_GoalPreference_Predator_Store_Neutral</defName>
+        <label>Storage ambivalence</label>
+        <description>This pawn doesn't really care one way or the other about storing prey.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/GoalPreference_Predator_Store/3</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_GoalPreference_Predator_Store_Neutral</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>GoalPreference_Predator_Store</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Predator_Preference</displayCategory>
+        <displayOrderInCategory>73</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+        <biostatCpx>0</biostatCpx>
+        <hidden>true</hidden>
+    </GeneDef>
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_GoalPreference_Predator_Store_Dislikes</defName>
+        <label>Noncommittal pred</label>
+        <description>This pawn dislikes storing prey indefinitely. It doesn't want to be burdened by prey longer than it has to. Find someone else to be your warehouse.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/GoalPreference_Predator_Store/4</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_GoalPreference_Predator_Store_Dislikes</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>GoalPreference_Predator_Store</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Predator_Preference</displayCategory>
+        <displayOrderInCategory>74</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_GoalPreference_Predator_Store_Refuses</defName>
+        <label>In-and-out pred</label>
+        <description>This pawn hates storing prey indefinitely. Find someone else to be your warehouse.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/GoalPreference_Predator_Store/5</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_GoalPreference_Predator_Store_Refuses</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>GoalPreference_Predator_Store</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Predator_Preference</displayCategory>
+        <displayOrderInCategory>75</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+
+    <!-- ==================== Predator Goal Preference: Hold ==================== -->
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_GoalPreference_Predator_Hold_Obsessed</defName>
+        <label>Heavy Holder</label>
+        <description>As a heavy Holder, this pawn loves to allow its prey a trip through itself.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/GoalPreference_Predator_Hold/1</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_GoalPreference_Predator_Hold_Obsessed</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>GoalPreference_Predator_Hold</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Predator_Preference</displayCategory>
+        <displayOrderInCategory>76</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_GoalPreference_Predator_Hold_Likes</defName>
+        <label>Holder</label>
+        <description>As a Holder, this pawn likes to pass their prey.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/GoalPreference_Predator_Hold/2</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_GoalPreference_Predator_Hold_Likes</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>GoalPreference_Predator_Hold</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Predator_Preference</displayCategory>
+        <displayOrderInCategory>77</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_GoalPreference_Predator_Hold_Neutral</defName>
+        <label>Hold ambivalence</label>
+        <description>This pawn doesn't really care one way or the other about temporarily storing prey.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/GoalPreference_Predator_Hold/3</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_GoalPreference_Predator_Hold_Neutral</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>GoalPreference_Predator_Hold</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Predator_Preference</displayCategory>
+        <displayOrderInCategory>78</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+        <biostatCpx>0</biostatCpx>
+        <hidden>true</hidden>
+    </GeneDef>
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_GoalPreference_Predator_Hold_Dislikes</defName>
+        <label>UnHoldy pred</label>
+        <description>This pawn dislikes temporarily storing prey.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/GoalPreference_Predator_Hold/4</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_GoalPreference_Predator_Hold_Dislikes</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>GoalPreference_Predator_Hold</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Predator_Preference</displayCategory>
+        <displayOrderInCategory>79</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_GoalPreference_Predator_Hold_Refuses</defName>
+        <label>Holding refusal</label>
+        <description>This pawn hates storing prey temporarily.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/GoalPreference_Predator_Hold/5</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_GoalPreference_Predator_Hold_Refuses</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>GoalPreference_Predator_Hold</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Predator_Preference</displayCategory>
+        <displayOrderInCategory>80</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+
+    <!-- ==================== Predator Goal Preference: Heal ==================== -->
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_GoalPreference_Predator_Heal_Obsessed</defName>
+        <label>Heal Slut</label>
+        <description>No need to spam E, this pawn has got you covered with a cozy place to stay in and get healthy.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/GoalPreference_Predator_Heal/1</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_GoalPreference_Predator_Heal_Obsessed</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>GoalPreference_Predator_Heal</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Predator_Preference</displayCategory>
+        <displayOrderInCategory>81</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_GoalPreference_Predator_Heal_Likes</defName>
+        <label>Healer</label>
+        <description>As a professional MMO Healer, this pawn likes to carry their team.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/GoalPreference_Predator_Heal/2</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_GoalPreference_Predator_Heal_Likes</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>GoalPreference_Predator_Heal</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Predator_Preference</displayCategory>
+        <displayOrderInCategory>82</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_GoalPreference_Predator_Heal_Neutral</defName>
+        <label>Heal ambivalence</label>
+        <description>This pawn doesn't really care one way or the other about healing prey.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/GoalPreference_Predator_Heal/3</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_GoalPreference_Predator_Heal_Neutral</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>GoalPreference_Predator_Heal</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Predator_Preference</displayCategory>
+        <displayOrderInCategory>83</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+        <biostatCpx>0</biostatCpx>
+        <hidden>true</hidden>
+    </GeneDef>
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_GoalPreference_Predator_Heal_Dislikes</defName>
+        <label>Unhealthy pred</label>
+        <description>This pawn dislikes healing prey.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/GoalPreference_Predator_Heal/4</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_GoalPreference_Predator_Heal_Dislikes</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>GoalPreference_Predator_Heal</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Predator_Preference</displayCategory>
+        <displayOrderInCategory>84</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_GoalPreference_Predator_Heal_Refuses</defName>
+        <label>Healing refusal</label>
+        <description>This pawn hates healing prey.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/GoalPreference_Predator_Heal/5</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_GoalPreference_Predator_Heal_Refuses</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>GoalPreference_Predator_Heal</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Predator_Preference</displayCategory>
+        <displayOrderInCategory>85</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
 </Defs>

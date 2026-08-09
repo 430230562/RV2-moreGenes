@@ -301,4 +301,49 @@
         <displayOrderInCategory>16</displayOrderInCategory>
         <biostatMet>0</biostatMet>
     </GeneDef>
+
+    <!-- ==================== Inabilities ==================== -->
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_Inability_PredEndoOnly</defName>
+        <label>Unacerbic</label>
+        <description>This pawn can't digest anyone--not alive, at least. It has the stretchiness to swallow prey, but none of the acidity to melt them. For nutrition, it has to settle for normal food instead.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/Inabilities/PredEndoOnly</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_Inability_PredEndoOnly</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>Inability_PredEndoOnly</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Predator_Preference</displayCategory>
+        <displayOrderInCategory>110</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_Inability_PredFatalOnly</defName>
+        <label>Hyperacerbic</label>
+        <description>This pawn's innards are totally unsafe, no matter the hole. All roads lead to digestion.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/Inabilities/PredFatalOnly</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_Inability_PredFatalOnly</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>Inability_PredFatalOnly</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Predator_Preference</displayCategory>
+        <displayOrderInCategory>120</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
 </Defs>

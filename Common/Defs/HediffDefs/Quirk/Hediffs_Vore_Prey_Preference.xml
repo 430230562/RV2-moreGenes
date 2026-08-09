@@ -264,4 +264,380 @@
             </li>
         </comps>
     </HediffDef>
+
+     <!-- ========== Prey Gender Preference ========== -->
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_GenderPreference_Prey_FemaleOnly</defName>
+        <label>Exclusive Gynephile</label>
+        <description>This pawn exclusively prefers female predators, and will never willingly let itself be consumed by a man.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>GenderPreference_Prey_FemaleOnly</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_GenderPreference_Prey_FemalePreferred</defName>
+        <label>Gynephilic Tendencies</label>
+        <description>This pawn prefers female predators, but may make occasional exceptions.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>GenderPreference_Prey_FemalePreferred</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_GenderPreference_Prey_Neutral</defName>
+        <label>Gender Indifferent</label>
+        <description>The gender of the predator is not a consideration for this pawn. Everyone looks the same on the inside!</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>GenderPreference_Prey_Neutral</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_GenderPreference_Prey_MalePreferred</defName>
+        <label>Androphilic Tendencies</label>
+        <description>This pawn prefers male predators, but may make occasional exceptions.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>GenderPreference_Prey_MalePreferred</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_GenderPreference_Prey_MaleOnly</defName>
+        <label>Exclusive Androphile</label>
+        <description>This pawn exclusively prefers male predators, and will never willingly let itself be consumed by a woman.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>GenderPreference_Prey_MaleOnly</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <!-- ==================== Prey Goal Preference: Digest ==================== -->
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_GoalPreference_Prey_Digest_Obsessed</defName>
+        <label>Digestion-wish</label>
+        <description>As an obsessive aliment, this pawn just can't help it; it wants to be utterly digested.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>GoalPreference_Prey_Digest_Obsessed</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_GoalPreference_Prey_Digest_Likes</defName>
+        <label>Aliment</label>
+        <description>As an aliment, this pawn often thinks about getting digested someday.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>GoalPreference_Prey_Digest_Likes</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_GoalPreference_Prey_Digest_Neutral</defName>
+        <label>Alimentary ambivalence</label>
+        <description>This pawn doesn't really care one way or the other about being digested.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>GoalPreference_Prey_Digest_Neutral</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_GoalPreference_Prey_Digest_Dislikes</defName>
+        <label>Alimentary aversion</label>
+        <description>This pawn is not particularly interested in an early, acidic grave.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>GoalPreference_Prey_Digest_Dislikes</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_GoalPreference_Prey_Digest_Refuses</defName>
+        <label>Life-wish</label>
+        <description>Are you mad? Who would want to be digested alive? This pawn certainly doesn't.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>GoalPreference_Prey_Digest_Refuses</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <!-- ==================== Prey Goal Preference: Pleasure ==================== -->
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_GoalPreference_Prey_Pleasure_Obsessed</defName>
+        <label>Obsessive Godemichet</label>
+        <description>As an obsessive godemichet, this pawn lives to be used for pleasure, and seeks it in the bellies of predators.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>GoalPreference_Prey_Pleasure_Obsessed</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_GoalPreference_Prey_Pleasure_Likes</defName>
+        <label>Godemichet</label>
+        <description>As a godemichet, this pawn likes to get off deep inside someone just as much as shallowly.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>GoalPreference_Prey_Pleasure_Likes</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_GoalPreference_Prey_Pleasure_Neutral</defName>
+        <label>Dildo ambivalence</label>
+        <description>This pawn doesn't really care one way or the other about being used for a predator's pleasure.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>GoalPreference_Prey_Pleasure_Neutral</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_GoalPreference_Prey_Pleasure_Dislikes</defName>
+        <label>Chaste prey</label>
+        <description>This pawn dislikes climbing into a predator for pleasure's sake. Maybe it's some sort of weirdo who doesn't find innards arousing?</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>GoalPreference_Prey_Pleasure_Dislikes</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_GoalPreference_Prey_Pleasure_Refuses</defName>
+        <label>Celibate prey</label>
+        <description>This pawn hates trying to find pleasure in the insides of a predator. It just can't get it on in there.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>GoalPreference_Prey_Pleasure_Refuses</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <!-- ==================== Prey Goal Preference: Store ==================== -->
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_GoalPreference_Prey_Store_Obsessed</defName>
+        <label>Shut-in prey</label>
+        <description>This pawn would rather live the rest of its life inside someone's belly than contribute to society in any way.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>GoalPreference_Prey_Store_Obsessed</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_GoalPreference_Prey_Store_Likes</defName>
+        <label>Live-in prey</label>
+        <description>Sometimes, this pawn just wants to take a vacation inside of someone. Or move in.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>GoalPreference_Prey_Store_Likes</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_GoalPreference_Prey_Store_Neutral</defName>
+        <label>Live-in ambivalence</label>
+        <description>This pawn doesn't really care one way or the other about being stored indefinitely.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>GoalPreference_Prey_Store_Neutral</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_GoalPreference_Prey_Store_Dislikes</defName>
+        <label>Busy prey</label>
+        <description>If you have to eat this pawn, at least don't make it an extended stay. It has its own things to do.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>GoalPreference_Prey_Store_Dislikes</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_GoalPreference_Prey_Store_Refuses</defName>
+        <label>In-and-out prey</label>
+        <description>This pawn cannot think of a life more boring than squishing around inside of a predator for days, months, or heaven forbid, years.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>GoalPreference_Prey_Store_Refuses</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <!-- ==================== Prey Goal Preference: Hold ==================== -->
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_GoalPreference_Prey_Hold_Obsessed</defName>
+        <label>In-and-out prey</label>
+        <description>This pawn loves passing through and taking in the sights of its predators.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>GoalPreference_Prey_Hold_Obsessed</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_GoalPreference_Prey_Hold_Likes</defName>
+        <label>Live-in prey</label>
+        <description>Sometimes, this pawn just wants to take a vacation inside of someone. Or move in.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>GoalPreference_Prey_Hold_Likes</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_GoalPreference_Prey_Hold_Neutral</defName>
+        <label>Hold ambivalence</label>
+        <description>This pawn doesn't really care one way or the other about being held temporarily.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>GoalPreference_Prey_Hold_Neutral</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_GoalPreference_Prey_Hold_Dislikes</defName>
+        <label>Busy prey</label>
+        <description>If you have to eat this pawn, at least don't make it an extended stay. It has its own things to do.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>GoalPreference_Prey_Hold_Dislikes</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_GoalPreference_Prey_Hold_Refuses</defName>
+        <label>Unwilling</label>
+        <description>This pawn cannot think of a life more boring than squishing around inside of a predator for days, months, or heaven forbid, years.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>GoalPreference_Prey_Hold_Refuses</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <!-- ==================== Prey Goal Preference: Heal ==================== -->
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_GoalPreference_Prey_Heal_Obsessed</defName>
+        <label>Hypochondriac</label>
+        <description>This pawn always feels like they need to slip into someone to be healed, even when they are perfectly fine.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>GoalPreference_Prey_Heal_Obsessed</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_GoalPreference_Prey_Heal_Likes</defName>
+        <label>Cozy prey</label>
+        <description>This pawn prefers healing vore over an expensive trip to a spa.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>GoalPreference_Prey_Heal_Likes</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_GoalPreference_Prey_Heal_Neutral</defName>
+        <label>Heal ambivalence</label>
+        <description>This pawn doesn't really care one way or the other about being vored for health.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>GoalPreference_Prey_Heal_Neutral</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_GoalPreference_Prey_Heal_Dislikes</defName>
+        <label>Uncomfortable prey</label>
+        <description>This pawn would prefer not being vored this way, even if it would be beneficial for their health.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>GoalPreference_Prey_Heal_Dislikes</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_GoalPreference_Prey_Heal_Refuses</defName>
+        <label>Trypanophobia</label>
+        <description>This pawn would rather succumb to their injuries than allow itself to be used as a healing prey.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>GoalPreference_Prey_Heal_Refuses</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
 </Defs>

@@ -4,7 +4,7 @@
 	<name>RimVore2-more-genes</name>
 	<author>Pardon</author>
 	<packageId>Pardon.RV2MG</packageId>
-	<description>添加了大量和吞噬有关的基因</description>
+	<description>添加了大量和吞噬有关的基因.\n 警告: 本mod肯定会导致基因库受到污染.</description>
 	<!-- See https://ludeon.com/forums/index.php?topic=43151.0 for description rich text -->
 	<supportedVersions>
 		<li>1.6</li>
