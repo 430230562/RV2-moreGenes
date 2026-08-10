@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Inefficient -->
+  <RV2_Hediff_QuirkForce_NutritionEfficiency_Bad.label>TODO</RV2_Hediff_QuirkForce_NutritionEfficiency_Bad.label>
+  <!-- EN: This pawn is about 75% as efficient at gaining nourishment and producing materials from prey as other predators. Its body just isn't as good at breaking down all those tough, unchewed tissues into something nutritious. -->
+  <RV2_Hediff_QuirkForce_NutritionEfficiency_Bad.description>TODO</RV2_Hediff_QuirkForce_NutritionEfficiency_Bad.description>
+  
+  <!-- EN: Godlike Efficiency -->
+  <RV2_Hediff_QuirkForce_NutritionEfficiency_Godlike.label>TODO</RV2_Hediff_QuirkForce_NutritionEfficiency_Godlike.label>
+  <!-- EN: Is it magic? Archotech implants? Who knows! At the end of the day, all that really matters is that this pawn is capable of feeding or fertilizing an entire colony on its own. -->
+  <RV2_Hediff_QuirkForce_NutritionEfficiency_Godlike.description>TODO</RV2_Hediff_QuirkForce_NutritionEfficiency_Godlike.description>
+  
+  <!-- EN: Efficient -->
+  <RV2_Hediff_QuirkForce_NutritionEfficiency_Good.label>TODO</RV2_Hediff_QuirkForce_NutritionEfficiency_Good.label>
+  <!-- EN: This pawn is about 150% as efficient at gaining nourishment and producing materials from prey as other predators. Its body just knows how to coax a little more nutrition out of the marrows and ligaments of its prey. -->
+  <RV2_Hediff_QuirkForce_NutritionEfficiency_Good.description>TODO</RV2_Hediff_QuirkForce_NutritionEfficiency_Good.description>
+  
+  <!-- EN: Normal efficiency -->
+  <RV2_Hediff_QuirkForce_NutritionEfficiency_Normal.label>TODO</RV2_Hediff_QuirkForce_NutritionEfficiency_Normal.label>
+  <!-- EN: This pawn is as efficient as other predators. -->
+  <RV2_Hediff_QuirkForce_NutritionEfficiency_Normal.description>TODO</RV2_Hediff_QuirkForce_NutritionEfficiency_Normal.description>
+  
+  <!-- EN: Very inefficient -->
+  <RV2_Hediff_QuirkForce_NutritionEfficiency_VeryBad.label>TODO</RV2_Hediff_QuirkForce_NutritionEfficiency_VeryBad.label>
+  <!-- EN: This pawn is about half as efficient at gaining nourishment and producing materials from prey as other predators. It needs to eat a lot of people to stay full. -->
+  <RV2_Hediff_QuirkForce_NutritionEfficiency_VeryBad.description>TODO</RV2_Hediff_QuirkForce_NutritionEfficiency_VeryBad.description>
+  
+  <!-- EN: Industrial efficiency -->
+  <RV2_Hediff_QuirkForce_NutritionEfficiency_VeryGood.label>TODO</RV2_Hediff_QuirkForce_NutritionEfficiency_VeryGood.label>
+  <!-- EN: This pawn is about twice as efficient at gaining nourishment and producing materials from prey as other predators. It uses the whole muffalo. -->
+  <RV2_Hediff_QuirkForce_NutritionEfficiency_VeryGood.description>TODO</RV2_Hediff_QuirkForce_NutritionEfficiency_VeryGood.description>
+  
+  <!-- EN: Unnutritious -->
+  <RV2_Hediff_QuirkForce_PreyNutrition_Bad.label>TODO</RV2_Hediff_QuirkForce_PreyNutrition_Bad.label>
+  <!-- EN: This pawn is about 75% as nutritious as other prey. It wouldn't make for good livestock. -->
+  <RV2_Hediff_QuirkForce_PreyNutrition_Bad.description>TODO</RV2_Hediff_QuirkForce_PreyNutrition_Bad.description>
+  
+  <!-- EN: Nutritious -->
+  <RV2_Hediff_QuirkForce_PreyNutrition_Good.label>TODO</RV2_Hediff_QuirkForce_PreyNutrition_Good.label>
+  <!-- EN: This pawn is about 150% as nutritious as other prey. It'll keep a pred full for a while. -->
+  <RV2_Hediff_QuirkForce_PreyNutrition_Good.description>TODO</RV2_Hediff_QuirkForce_PreyNutrition_Good.description>
+  
+  <!-- EN: Normal nutritiousness -->
+  <RV2_Hediff_QuirkForce_PreyNutrition_Normal.label>TODO</RV2_Hediff_QuirkForce_PreyNutrition_Normal.label>
+  <!-- EN: This pawn is as nutritious as other prey. -->
+  <RV2_Hediff_QuirkForce_PreyNutrition_Normal.description>TODO</RV2_Hediff_QuirkForce_PreyNutrition_Normal.description>
+  
+  <!-- EN: Junk prey -->
+  <RV2_Hediff_QuirkForce_PreyNutrition_VeryBad.label>TODO</RV2_Hediff_QuirkForce_PreyNutrition_VeryBad.label>
+  <!-- EN: This pawn is about half as nutritious as other prey. You'd get a better meal out of a vending machine. -->
+  <RV2_Hediff_QuirkForce_PreyNutrition_VeryBad.description>TODO</RV2_Hediff_QuirkForce_PreyNutrition_VeryBad.description>
+  
+  <!-- EN: Very nutritious -->
+  <RV2_Hediff_QuirkForce_PreyNutrition_VeryGood.label>TODO</RV2_Hediff_QuirkForce_PreyNutrition_VeryGood.label>
+  <!-- EN: This pawn is about twice as nutritious as other prey. The best kind of ration around! -->
+  <RV2_Hediff_QuirkForce_PreyNutrition_VeryGood.description>TODO</RV2_Hediff_QuirkForce_PreyNutrition_VeryGood.description>
+  
+</LanguageData>

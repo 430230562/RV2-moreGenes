@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Mischievous -->
+  <RV2_Hediff_QuirkForce_GoalSwitching_Enabled.label>TODO</RV2_Hediff_QuirkForce_GoalSwitching_Enabled.label>
+  <!-- EN: This pawn is mischievous at heart. It may propose one kind of vore to someone and then pull a fast one and do something entirely different. -->
+  <RV2_Hediff_QuirkForce_GoalSwitching_Enabled.description>TODO</RV2_Hediff_QuirkForce_GoalSwitching_Enabled.description>
+  
+  <!-- EN: Psyfocus gain (predator) -->
+  <RV2_Hediff_QuirkForce_PostVoreAbilities_PsyfocusGainPredator.label>TODO</RV2_Hediff_QuirkForce_PostVoreAbilities_PsyfocusGainPredator.label>
+  <!-- EN: This pawn has a 20% chance of gaining psyfocus after doing vore. -->
+  <RV2_Hediff_QuirkForce_PostVoreAbilities_PsyfocusGainPredator.description>TODO</RV2_Hediff_QuirkForce_PostVoreAbilities_PsyfocusGainPredator.description>
+  
+  <!-- EN: Psyfocus gain (prey) -->
+  <RV2_Hediff_QuirkForce_PostVoreAbilities_PsyfocusGainPrey.label>TODO</RV2_Hediff_QuirkForce_PostVoreAbilities_PsyfocusGainPrey.label>
+  <!-- EN: This pawn has a 20% chance of gaining psyfocus after being vored. -->
+  <RV2_Hediff_QuirkForce_PostVoreAbilities_PsyfocusGainPrey.description>TODO</RV2_Hediff_QuirkForce_PostVoreAbilities_PsyfocusGainPrey.description>
+  
+  <!-- EN: Skill absorb -->
+  <RV2_Hediff_QuirkForce_PostVoreAbilities_SkillAbsorb.label>TODO</RV2_Hediff_QuirkForce_PostVoreAbilities_SkillAbsorb.label>
+  <!-- EN: This pawn has a 20% chance of absorbing experience from its prey's highest skill. -->
+  <RV2_Hediff_QuirkForce_PostVoreAbilities_SkillAbsorb.description>TODO</RV2_Hediff_QuirkForce_PostVoreAbilities_SkillAbsorb.description>
+  
+  <!-- EN: Trait absorb -->
+  <RV2_Hediff_QuirkForce_PostVoreAbilities_TraitAbsorb.label>TODO</RV2_Hediff_QuirkForce_PostVoreAbilities_TraitAbsorb.label>
+  <!-- EN: This pawn has a 20% chance of absorbing a random trait from its prey. -->
+  <RV2_Hediff_QuirkForce_PostVoreAbilities_TraitAbsorb.description>TODO</RV2_Hediff_QuirkForce_PostVoreAbilities_TraitAbsorb.description>
+  
+</LanguageData>

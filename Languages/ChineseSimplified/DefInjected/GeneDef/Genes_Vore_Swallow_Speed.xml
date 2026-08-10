@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Slow eater -->
+  <RV2_Gene_QuirkForce_SwallowSpeed_Bad.label>TODO</RV2_Gene_QuirkForce_SwallowSpeed_Bad.label>
+  <!-- EN: This pawn takes prey in at a leisurely pace, half as quick as other predators. -->
+  <RV2_Gene_QuirkForce_SwallowSpeed_Bad.description>TODO</RV2_Gene_QuirkForce_SwallowSpeed_Bad.description>
+  
+  <!-- EN: Quick eater -->
+  <RV2_Gene_QuirkForce_SwallowSpeed_Good.label>TODO</RV2_Gene_QuirkForce_SwallowSpeed_Good.label>
+  <!-- EN: This pawn puts prey away quickly, at about twice the speed of other predators. -->
+  <RV2_Gene_QuirkForce_SwallowSpeed_Good.description>TODO</RV2_Gene_QuirkForce_SwallowSpeed_Good.description>
+  
+  <!-- EN: Normal swallow speed -->
+  <RV2_Gene_QuirkForce_SwallowSpeed_Normal.label>TODO</RV2_Gene_QuirkForce_SwallowSpeed_Normal.label>
+  <!-- EN: This pawn swallows prey at an average speed. -->
+  <RV2_Gene_QuirkForce_SwallowSpeed_Normal.description>TODO</RV2_Gene_QuirkForce_SwallowSpeed_Normal.description>
+  
+  <!-- EN: Lollygagger -->
+  <RV2_Gene_QuirkForce_SwallowSpeed_VeryBad.label>TODO</RV2_Gene_QuirkForce_SwallowSpeed_VeryBad.label>
+  <!-- EN: This pawn has to devour prey real slowly, at about a quarter the speed of other\n            predators, lest its body reject its prey. -->
+  <RV2_Gene_QuirkForce_SwallowSpeed_VeryBad.description>TODO</RV2_Gene_QuirkForce_SwallowSpeed_VeryBad.description>
+  
+  <!-- EN: Speed-slurper -->
+  <RV2_Gene_QuirkForce_SwallowSpeed_VeryGood.label>TODO</RV2_Gene_QuirkForce_SwallowSpeed_VeryGood.label>
+  <!-- EN: This pawn belts down prey at about four times the speed of other predators. It\n            could dominate a prey-swallowing contest. -->
+  <RV2_Gene_QuirkForce_SwallowSpeed_VeryGood.description>TODO</RV2_Gene_QuirkForce_SwallowSpeed_VeryGood.description>
+  
+  <!-- EN: Instant Swallow -->
+  <RV2_Hediff_QuirkForce_Cheat_InstantSwallow.label>TODO</RV2_Hediff_QuirkForce_Cheat_InstantSwallow.label>
+  <!-- EN: This pawn inhales prey like they are drowning and the prey are air. -->
+  <RV2_Hediff_QuirkForce_Cheat_InstantSwallow.description>TODO</RV2_Hediff_QuirkForce_Cheat_InstantSwallow.description>
+  
+</LanguageData>

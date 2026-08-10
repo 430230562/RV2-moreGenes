@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Processed pawn distaste -->
+  <RV2_Hediff_QuirkForce_ProductPreference_Dislikes.label>TODO</RV2_Hediff_QuirkForce_ProductPreference_Dislikes.label>
+  <!-- EN: This pawn dislikes consuming the remains of prey who have been churned into edibles. It's a waste of good food. -->
+  <RV2_Hediff_QuirkForce_ProductPreference_Dislikes.description>TODO</RV2_Hediff_QuirkForce_ProductPreference_Dislikes.description>
+  
+  <!-- EN: Processed pawn disgust -->
+  <RV2_Hediff_QuirkForce_ProductPreference_Hates.label>TODO</RV2_Hediff_QuirkForce_ProductPreference_Hates.label>
+  <!-- EN: This pawn hates consuming the remains of prey who have been churned into edibles. It's a profane alchemy that mustn't grace its tongue. -->
+  <RV2_Hediff_QuirkForce_ProductPreference_Hates.description>TODO</RV2_Hediff_QuirkForce_ProductPreference_Hates.description>
+  
+  <!-- EN: Processed pawn taste -->
+  <RV2_Hediff_QuirkForce_ProductPreference_Likes.label>TODO</RV2_Hediff_QuirkForce_ProductPreference_Likes.label>
+  <!-- EN: This pawn likes to consume the remains of prey who have been churned into tasty beverages. -->
+  <RV2_Hediff_QuirkForce_ProductPreference_Likes.description>TODO</RV2_Hediff_QuirkForce_ProductPreference_Likes.description>
+  
+  <!-- EN: Processed pawn connoisseur -->
+  <RV2_Hediff_QuirkForce_ProductPreference_Loves.label>TODO</RV2_Hediff_QuirkForce_ProductPreference_Loves.label>
+  <!-- EN: This pawn loves to consume the treats dispensed by predators, who have so skillfully churned their prey into thick batter and creamy milk. -->
+  <RV2_Hediff_QuirkForce_ProductPreference_Loves.description>TODO</RV2_Hediff_QuirkForce_ProductPreference_Loves.description>
+  
+  <!-- EN: Processed pawn ambivalence -->
+  <RV2_Hediff_QuirkForce_ProductPreference_Neutral.label>TODO</RV2_Hediff_QuirkForce_ProductPreference_Neutral.label>
+  <!-- EN: This pawn doesn't care one way or the other about consuming the remains of prey who have been churned into edibles. -->
+  <RV2_Hediff_QuirkForce_ProductPreference_Neutral.description>TODO</RV2_Hediff_QuirkForce_ProductPreference_Neutral.description>
+  
+</LanguageData>

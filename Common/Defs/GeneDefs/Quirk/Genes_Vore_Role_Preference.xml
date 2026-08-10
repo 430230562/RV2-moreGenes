@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 
 <!-- 这不是一个高效的方法 -->
 <Defs>
@@ -6,7 +6,8 @@
     <GeneDef>
         <defName>RV2_Gene_QuirkForce_PredatorDisposition_Obsessed</defName>
         <label>Ravenous predator</label>
-        <description>This pawn imagines itself as an apex predator, sitting proud at the top of the food chain. It lives to prey on those around it.</description>
+        <description>This pawn imagines itself as an apex predator, sitting proud at the top of the
+            food chain. It lives to prey on those around it.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
         <iconPath>UI/Icons/Genes/PredatorDisposition/9</iconPath>
         <modExtensions>
@@ -20,7 +21,7 @@
         <exclusionTags>
             <li>PredatorDisposition</li>
         </exclusionTags>
-        <displayCategory>RV2_Vore_Predator_Preference</displayCategory>
+        <displayCategory>RV2_Vore_General</displayCategory>
         <displayOrderInCategory>89</displayOrderInCategory>
         <biostatMet>0</biostatMet>
     </GeneDef>
@@ -42,7 +43,7 @@
         <exclusionTags>
             <li>PredatorDisposition</li>
         </exclusionTags>
-        <displayCategory>RV2_Vore_Predator_Preference</displayCategory>
+        <displayCategory>RV2_Vore_General</displayCategory>
         <displayOrderInCategory>90</displayOrderInCategory>
         <biostatMet>0</biostatMet>
     </GeneDef>
@@ -64,17 +65,18 @@
         <exclusionTags>
             <li>PredatorDisposition</li>
         </exclusionTags>
-        <displayCategory>RV2_Vore_Predator_Preference</displayCategory>
+        <displayCategory>RV2_Vore_General</displayCategory>
         <displayOrderInCategory>91</displayOrderInCategory>
         <biostatMet>0</biostatMet>
         <biostatCpx>0</biostatCpx>
-        <hidden>true</hidden>
+
     </GeneDef>
 
     <GeneDef>
         <defName>RV2_Gene_QuirkForce_PredatorDisposition_Dislikes</defName>
         <label>Predatory aversion</label>
-        <description>This pawn is not much of a predator and doesn't want to devour anyone. It'd have to be for convenience, survival, or really scratching an uncommon itch.</description>
+        <description>This pawn is not much of a predator and doesn't want to devour anyone. It'd
+            have to be for convenience, survival, or really scratching an uncommon itch.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
         <iconPath>UI/Icons/Genes/PredatorDisposition/92</iconPath>
         <modExtensions>
@@ -88,7 +90,7 @@
         <exclusionTags>
             <li>PredatorDisposition</li>
         </exclusionTags>
-        <displayCategory>RV2_Vore_Predator_Preference</displayCategory>
+        <displayCategory>RV2_Vore_General</displayCategory>
         <displayOrderInCategory>92</displayOrderInCategory>
         <biostatMet>0</biostatMet>
     </GeneDef>
@@ -110,7 +112,7 @@
         <exclusionTags>
             <li>PredatorDisposition</li>
         </exclusionTags>
-        <displayCategory>RV2_Vore_Predator_Preference</displayCategory>
+        <displayCategory>RV2_Vore_General</displayCategory>
         <displayOrderInCategory>93</displayOrderInCategory>
         <biostatMet>0</biostatMet>
     </GeneDef>
@@ -119,7 +121,8 @@
     <GeneDef>
         <defName>RV2_Gene_QuirkForce_FeederDisposition_Predator_Obsessed</defName>
         <label>Spoonfed</label>
-        <description>This pawn loves gobbling up prey, but hates the effort involved in chasing them down. Having someone else do it for them sounds delightful.</description>
+        <description>This pawn loves gobbling up prey, but hates the effort involved in chasing them
+            down. Having someone else do it for them sounds delightful.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
         <iconPath>UI/Icons/Genes/FeederDisposition_Predator/4</iconPath>
         <modExtensions>
@@ -133,7 +136,7 @@
         <exclusionTags>
             <li>FeederDisposition_Predator</li>
         </exclusionTags>
-        <displayCategory>RV2_Vore_Predator_Preference</displayCategory>
+        <displayCategory>RV2_Vore_General</displayCategory>
         <displayOrderInCategory>94</displayOrderInCategory>
         <biostatMet>0</biostatMet>
     </GeneDef>
@@ -141,7 +144,8 @@
     <GeneDef>
         <defName>RV2_Gene_QuirkForce_FeederDisposition_Predator_Likes</defName>
         <label>Receptive</label>
-        <description>This pawn likes the idea of having prey fed to them with no extra effort involved.</description>
+        <description>This pawn likes the idea of having prey fed to them with no extra effort
+            involved.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
         <iconPath>UI/Icons/Genes/FeederDisposition_Predator/5</iconPath>
         <modExtensions>
@@ -155,7 +159,7 @@
         <exclusionTags>
             <li>FeederDisposition_Predator</li>
         </exclusionTags>
-        <displayCategory>RV2_Vore_Predator_Preference</displayCategory>
+        <displayCategory>RV2_Vore_General</displayCategory>
         <displayOrderInCategory>95</displayOrderInCategory>
         <biostatMet>0</biostatMet>
     </GeneDef>
@@ -163,7 +167,8 @@
     <GeneDef>
         <defName>RV2_Gene_QuirkForce_FeederDisposition_Predator_Neutral</defName>
         <label>Ambivalence</label>
-        <description>This pawn doesn't really care if they have to track down their own prey or be fed.</description>
+        <description>This pawn doesn't really care if they have to track down their own prey or be
+            fed.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
         <iconPath>UI/Icons/Genes/FeederDisposition_Predator/6</iconPath>
         <modExtensions>
@@ -177,11 +182,11 @@
         <exclusionTags>
             <li>FeederDisposition_Predator</li>
         </exclusionTags>
-        <displayCategory>RV2_Vore_Predator_Preference</displayCategory>
+        <displayCategory>RV2_Vore_General</displayCategory>
         <displayOrderInCategory>96</displayOrderInCategory>
         <biostatMet>0</biostatMet>
         <biostatCpx>0</biostatCpx>
-        <hidden>true</hidden>
+
     </GeneDef>
 
     <GeneDef>
@@ -201,7 +206,7 @@
         <exclusionTags>
             <li>FeederDisposition_Predator</li>
         </exclusionTags>
-        <displayCategory>RV2_Vore_Predator_Preference</displayCategory>
+        <displayCategory>RV2_Vore_General</displayCategory>
         <displayOrderInCategory>97</displayOrderInCategory>
         <biostatMet>0</biostatMet>
     </GeneDef>
@@ -209,7 +214,8 @@
     <GeneDef>
         <defName>RV2_Gene_QuirkForce_FeederDisposition_Predator_Refuses</defName>
         <label>Picky Eater</label>
-        <description>This pawn is fully grown and self-reliant. Feeding prey to it is insulting when it can just get the prey itself.</description>
+        <description>This pawn is fully grown and self-reliant. Feeding prey to it is insulting when
+            it can just get the prey itself.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
         <iconPath>UI/Icons/Genes/FeederDisposition_Predator/8</iconPath>
         <modExtensions>
@@ -223,7 +229,7 @@
         <exclusionTags>
             <li>FeederDisposition_Predator</li>
         </exclusionTags>
-        <displayCategory>RV2_Vore_Predator_Preference</displayCategory>
+        <displayCategory>RV2_Vore_General</displayCategory>
         <displayOrderInCategory>98</displayOrderInCategory>
         <biostatMet>0</biostatMet>
     </GeneDef>
@@ -232,7 +238,8 @@
     <GeneDef>
         <defName>RV2_Gene_QuirkForce_PreyDisposition_Obsessed</defName>
         <label>Preyslut</label>
-        <description>This pawn is more comfortable inside of someone's body than outside. It would spend its whole life there if it could.</description>
+        <description>This pawn is more comfortable inside of someone's body than outside. It would
+            spend its whole life there if it could.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
         <iconPath>UI/Icons/Genes/PreyDisposition/4</iconPath>
         <modExtensions>
@@ -246,7 +253,7 @@
         <exclusionTags>
             <li>PreyDisposition</li>
         </exclusionTags>
-        <displayCategory>RV2_Vore_Prey_Preference</displayCategory>
+        <displayCategory>RV2_Vore_General</displayCategory>
         <displayOrderInCategory>114</displayOrderInCategory>
         <biostatMet>0</biostatMet>
     </GeneDef>
@@ -254,7 +261,8 @@
     <GeneDef>
         <defName>RV2_Gene_QuirkForce_PreyDisposition_Likes</defName>
         <label>Prey</label>
-        <description>This pawn is turned on by the prospect of being devoured alive, constantly scanning for some pred or other to scoop it up.</description>
+        <description>This pawn is turned on by the prospect of being devoured alive, constantly
+            scanning for some pred or other to scoop it up.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
         <iconPath>UI/Icons/Genes/PreyDisposition/5</iconPath>
         <modExtensions>
@@ -268,7 +276,7 @@
         <exclusionTags>
             <li>PreyDisposition</li>
         </exclusionTags>
-        <displayCategory>RV2_Vore_Prey_Preference</displayCategory>
+        <displayCategory>RV2_Vore_General</displayCategory>
         <displayOrderInCategory>115</displayOrderInCategory>
         <biostatMet>0</biostatMet>
     </GeneDef>
@@ -290,17 +298,18 @@
         <exclusionTags>
             <li>PreyDisposition</li>
         </exclusionTags>
-        <displayCategory>RV2_Vore_Prey_Preference</displayCategory>
+        <displayCategory>RV2_Vore_General</displayCategory>
         <displayOrderInCategory>116</displayOrderInCategory>
         <biostatMet>0</biostatMet>
         <biostatCpx>0</biostatCpx>
-        <hidden>true</hidden>
+
     </GeneDef>
 
     <GeneDef>
         <defName>RV2_Gene_QuirkForce_PreyDisposition_Dislikes</defName>
         <label>Preyish aversion</label>
-        <description>This pawn isn't that interested in getting devoured. It'd have to be for convenience, survival, or really scratching an uncommon itch.</description>
+        <description>This pawn isn't that interested in getting devoured. It'd have to be for
+            convenience, survival, or really scratching an uncommon itch.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
         <iconPath>UI/Icons/Genes/PreyDisposition/7</iconPath>
         <modExtensions>
@@ -314,7 +323,7 @@
         <exclusionTags>
             <li>PreyDisposition</li>
         </exclusionTags>
-        <displayCategory>RV2_Vore_Prey_Preference</displayCategory>
+        <displayCategory>RV2_Vore_General</displayCategory>
         <displayOrderInCategory>117</displayOrderInCategory>
         <biostatMet>0</biostatMet>
     </GeneDef>
@@ -322,7 +331,8 @@
     <GeneDef>
         <defName>RV2_Gene_QuirkForce_PreyDisposition_Refuses</defName>
         <label>Preyish refusal</label>
-        <description>This pawn has absolutely no desire to get devoured at all. It insists that it is not food.</description>
+        <description>This pawn has absolutely no desire to get devoured at all. It insists that it
+            is not food.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
         <iconPath>UI/Icons/Genes/PreyDisposition/8</iconPath>
         <modExtensions>
@@ -336,7 +346,7 @@
         <exclusionTags>
             <li>PreyDisposition</li>
         </exclusionTags>
-        <displayCategory>RV2_Vore_Prey_Preference</displayCategory>
+        <displayCategory>RV2_Vore_General</displayCategory>
         <displayOrderInCategory>118</displayOrderInCategory>
         <biostatMet>0</biostatMet>
     </GeneDef>
@@ -345,7 +355,8 @@
     <GeneDef>
         <defName>RV2_Gene_QuirkForce_FeederDisposition_Prey_Obsessed</defName>
         <label>Intro(vore)ted</label>
-        <description>This pawn is extremely intro(vore)ted and needs someone else to hook it up to a predator.</description>
+        <description>This pawn is extremely intro(vore)ted and needs someone else to hook it up to a
+            predator.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
         <iconPath>UI/Icons/Genes/FeederDisposition_Prey/9</iconPath>
         <modExtensions>
@@ -359,7 +370,7 @@
         <exclusionTags>
             <li>FeederDisposition_Prey</li>
         </exclusionTags>
-        <displayCategory>RV2_Vore_Prey_Preference</displayCategory>
+        <displayCategory>RV2_Vore_General</displayCategory>
         <displayOrderInCategory>119</displayOrderInCategory>
         <biostatMet>0</biostatMet>
     </GeneDef>
@@ -381,7 +392,7 @@
         <exclusionTags>
             <li>FeederDisposition_Prey</li>
         </exclusionTags>
-        <displayCategory>RV2_Vore_Prey_Preference</displayCategory>
+        <displayCategory>RV2_Vore_General</displayCategory>
         <displayOrderInCategory>120</displayOrderInCategory>
         <biostatMet>0</biostatMet>
     </GeneDef>
@@ -403,17 +414,18 @@
         <exclusionTags>
             <li>FeederDisposition_Prey</li>
         </exclusionTags>
-        <displayCategory>RV2_Vore_Prey_Preference</displayCategory>
+        <displayCategory>RV2_Vore_General</displayCategory>
         <displayOrderInCategory>121</displayOrderInCategory>
         <biostatMet>0</biostatMet>
         <biostatCpx>0</biostatCpx>
-        <hidden>true</hidden>
+
     </GeneDef>
 
     <GeneDef>
         <defName>RV2_Gene_QuirkForce_FeederDisposition_Prey_Dislikes</defName>
         <label>Fodder aversion</label>
-        <description>This pawn doesn't want to be a bother, so they'd rather not have someone spend their time introducing them to a pred.</description>
+        <description>This pawn doesn't want to be a bother, so they'd rather not have someone spend
+            their time introducing them to a pred.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
         <iconPath>UI/Icons/Genes/FeederDisposition_Prey/121</iconPath>
         <modExtensions>
@@ -427,7 +439,7 @@
         <exclusionTags>
             <li>FeederDisposition_Prey</li>
         </exclusionTags>
-        <displayCategory>RV2_Vore_Prey_Preference</displayCategory>
+        <displayCategory>RV2_Vore_General</displayCategory>
         <displayOrderInCategory>122</displayOrderInCategory>
         <biostatMet>0</biostatMet>
     </GeneDef>
@@ -435,7 +447,8 @@
     <GeneDef>
         <defName>RV2_Gene_QuirkForce_FeederDisposition_Prey_Refuses</defName>
         <label>Fodder refusal</label>
-        <description>This pawn hates the idea of being fed to someone else. It wants to pick its own holes to jump into.</description>
+        <description>This pawn hates the idea of being fed to someone else. It wants to pick its own
+            holes to jump into.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
         <iconPath>UI/Icons/Genes/FeederDisposition_Prey/122</iconPath>
         <modExtensions>
@@ -449,7 +462,7 @@
         <exclusionTags>
             <li>FeederDisposition_Prey</li>
         </exclusionTags>
-        <displayCategory>RV2_Vore_Prey_Preference</displayCategory>
+        <displayCategory>RV2_Vore_General</displayCategory>
         <displayOrderInCategory>123</displayOrderInCategory>
         <biostatMet>0</biostatMet>
     </GeneDef>
@@ -458,7 +471,8 @@
     <GeneDef>
         <defName>RV2_Gene_QuirkForce_FeederDisposition_Obsessed</defName>
         <label>Frenzied feeder</label>
-        <description>This pawn finds little in this world more rewarding than handling all the busywork for a predator, up to and including hand-feeding said pred some prey.</description>
+        <description>This pawn finds little in this world more rewarding than handling all the
+            busywork for a predator, up to and including hand-feeding said pred some prey.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
         <iconPath>UI/Icons/Genes/FeederDisposition/1</iconPath>
         <modExtensions>
@@ -472,7 +486,7 @@
         <exclusionTags>
             <li>FeederDisposition</li>
         </exclusionTags>
-        <displayCategory>RV2_Vore_Feeder_Preference</displayCategory>
+        <displayCategory>RV2_Vore_General</displayCategory>
         <displayOrderInCategory>1</displayOrderInCategory>
         <biostatMet>0</biostatMet>
     </GeneDef>
@@ -480,7 +494,8 @@
     <GeneDef>
         <defName>RV2_Gene_QuirkForce_FeederDisposition_Likes</defName>
         <label>Feeder</label>
-        <description>This pawn likes to help preds out with their hunting by fetching the prey for them.</description>
+        <description>This pawn likes to help preds out with their hunting by fetching the prey for
+            them.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
         <iconPath>UI/Icons/Genes/FeederDisposition/2</iconPath>
         <modExtensions>
@@ -494,7 +509,7 @@
         <exclusionTags>
             <li>FeederDisposition</li>
         </exclusionTags>
-        <displayCategory>RV2_Vore_Feeder_Preference</displayCategory>
+        <displayCategory>RV2_Vore_General</displayCategory>
         <displayOrderInCategory>2</displayOrderInCategory>
         <biostatMet>0</biostatMet>
     </GeneDef>
@@ -502,7 +517,8 @@
     <GeneDef>
         <defName>RV2_Gene_QuirkForce_FeederDisposition_Neutral</defName>
         <label>Feeder ambivalence</label>
-        <description>This pawn doesn't really care one way or the other about hand-feeding predators.</description>
+        <description>This pawn doesn't really care one way or the other about hand-feeding
+            predators.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
         <iconPath>UI/Icons/Genes/FeederDisposition/3</iconPath>
         <modExtensions>
@@ -516,17 +532,18 @@
         <exclusionTags>
             <li>FeederDisposition</li>
         </exclusionTags>
-        <displayCategory>RV2_Vore_Feeder_Preference</displayCategory>
+        <displayCategory>RV2_Vore_General</displayCategory>
         <displayOrderInCategory>3</displayOrderInCategory>
         <biostatMet>0</biostatMet>
         <biostatCpx>0</biostatCpx>
-        <hidden>true</hidden>
+
     </GeneDef>
 
     <GeneDef>
         <defName>RV2_Gene_QuirkForce_FeederDisposition_Dislikes</defName>
         <label>Feeder aversion</label>
-        <description>This pawn dislikes hand-feeding predators and would rather the predator just got their food themself.</description>
+        <description>This pawn dislikes hand-feeding predators and would rather the predator just
+            got their food themself.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
         <iconPath>UI/Icons/Genes/FeederDisposition/4</iconPath>
         <modExtensions>
@@ -540,7 +557,7 @@
         <exclusionTags>
             <li>FeederDisposition</li>
         </exclusionTags>
-        <displayCategory>RV2_Vore_Feeder_Preference</displayCategory>
+        <displayCategory>RV2_Vore_General</displayCategory>
         <displayOrderInCategory>4</displayOrderInCategory>
         <biostatMet>0</biostatMet>
     </GeneDef>
@@ -548,7 +565,8 @@
     <GeneDef>
         <defName>RV2_Gene_QuirkForce_FeederDisposition_Refuses</defName>
         <label>Feeder refusal</label>
-        <description>This pawn hates hand-feeding predators and will not willingly do it. That's just an elaborate way to get eaten last.</description>
+        <description>This pawn hates hand-feeding predators and will not willingly do it. That's
+            just an elaborate way to get eaten last.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
         <iconPath>UI/Icons/Genes/FeederDisposition/5</iconPath>
         <modExtensions>
@@ -562,7 +580,7 @@
         <exclusionTags>
             <li>FeederDisposition</li>
         </exclusionTags>
-        <displayCategory>RV2_Vore_Feeder_Preference</displayCategory>
+        <displayCategory>RV2_Vore_General</displayCategory>
         <displayOrderInCategory>5</displayOrderInCategory>
         <biostatMet>0</biostatMet>
     </GeneDef>

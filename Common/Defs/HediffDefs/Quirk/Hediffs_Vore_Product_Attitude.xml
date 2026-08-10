@@ -3,116 +3,69 @@
 <!-- 这不是一个高效的方法 -->
 <Defs>
 
- <!-- ==================== Vore Product Preferences ==================== -->
-    <GeneDef>
-        <defName>RV2_Gene_QuirkForce_ProductPreference_Loves</defName>
+<!-- ==================== Vore Product Preferences ==================== -->
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_ProductPreference_Loves</defName>
         <label>Processed pawn connoisseur</label>
         <description>This pawn loves to consume the treats dispensed by predators, who have so skillfully churned their prey into thick batter and creamy milk.</description>
-        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
-        <iconPath>UI/Icons/Genes/ProductPreference/18</iconPath>
-        <modExtensions>
-            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
-                <hediffs>
-                    <li>RV2_Hediff_QuirkForce_ProductPreference_Loves</li>
-                </hediffs>
-                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>ProductPreference_Loves</li>
+                </quirks>
             </li>
-        </modExtensions>
-        <exclusionTags>
-            <li>ProductPreference</li>
-        </exclusionTags>
-        <displayCategory>RV2_Vore_General</displayCategory>
-        <displayOrderInCategory>18</displayOrderInCategory>
-        <biostatMet>0</biostatMet>
-    </GeneDef>
+        </comps>
+    </HediffDef>
 
-    <GeneDef>
-        <defName>RV2_Gene_QuirkForce_ProductPreference_Likes</defName>
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_ProductPreference_Likes</defName>
         <label>Processed pawn taste</label>
         <description>This pawn likes to consume the remains of prey who have been churned into tasty beverages.</description>
-        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
-        <iconPath>UI/Icons/Genes/ProductPreference/19</iconPath>
-        <modExtensions>
-            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
-                <hediffs>
-                    <li>RV2_Hediff_QuirkForce_ProductPreference_Likes</li>
-                </hediffs>
-                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>ProductPreference_Likes</li>
+                </quirks>
             </li>
-        </modExtensions>
-        <exclusionTags>
-            <li>ProductPreference</li>
-        </exclusionTags>
-        <displayCategory>RV2_Vore_General</displayCategory>
-        <displayOrderInCategory>19</displayOrderInCategory>
-        <biostatMet>0</biostatMet>
-    </GeneDef>
+        </comps>
+    </HediffDef>
 
-    <GeneDef>
-        <defName>RV2_Gene_QuirkForce_ProductPreference_Neutral</defName>
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_ProductPreference_Neutral</defName>
         <label>Processed pawn ambivalence</label>
         <description>This pawn doesn't care one way or the other about consuming the remains of prey who have been churned into edibles.</description>
-        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
-        <iconPath>UI/Icons/Genes/ProductPreference/20</iconPath>
-        <modExtensions>
-            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
-                <hediffs>
-                    <li>RV2_Hediff_QuirkForce_ProductPreference_Neutral</li>
-                </hediffs>
-                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>ProductPreference_Neutral</li>
+                </quirks>
             </li>
-        </modExtensions>
-        <exclusionTags>
-            <li>ProductPreference</li>
-        </exclusionTags>
-        <displayCategory>RV2_Vore_General</displayCategory>
-        <displayOrderInCategory>20</displayOrderInCategory>
-        <biostatMet>0</biostatMet>
-        <biostatCpx>0</biostatCpx>
-        <hidden>true</hidden>
-    </GeneDef>
+        </comps>
+    </HediffDef>
 
-    <GeneDef>
-        <defName>RV2_Gene_QuirkForce_ProductPreference_Dislikes</defName>
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_ProductPreference_Dislikes</defName>
         <label>Processed pawn distaste</label>
         <description>This pawn dislikes consuming the remains of prey who have been churned into edibles. It's a waste of good food.</description>
-        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
-        <iconPath>UI/Icons/Genes/ProductPreference/21</iconPath>
-        <modExtensions>
-            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
-                <hediffs>
-                    <li>RV2_Hediff_QuirkForce_ProductPreference_Dislikes</li>
-                </hediffs>
-                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>ProductPreference_Dislikes</li>
+                </quirks>
             </li>
-        </modExtensions>
-        <exclusionTags>
-            <li>ProductPreference</li>
-        </exclusionTags>
-        <displayCategory>RV2_Vore_General</displayCategory>
-        <displayOrderInCategory>21</displayOrderInCategory>
-        <biostatMet>0</biostatMet>
-    </GeneDef>
+        </comps>
+    </HediffDef>
 
-    <GeneDef>
-        <defName>RV2_Gene_QuirkForce_ProductPreference_Hates</defName>
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_ProductPreference_Hates</defName>
         <label>Processed pawn disgust</label>
         <description>This pawn hates consuming the remains of prey who have been churned into edibles. It's a profane alchemy that mustn't grace its tongue.</description>
-        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
-        <iconPath>UI/Icons/Genes/ProductPreference/22</iconPath>
-        <modExtensions>
-            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
-                <hediffs>
-                    <li>RV2_Hediff_QuirkForce_ProductPreference_Hates</li>
-                </hediffs>
-                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>ProductPreference_Hates</li>
+                </quirks>
             </li>
-        </modExtensions>
-        <exclusionTags>
-            <li>ProductPreference</li>
-        </exclusionTags>
-        <displayCategory>RV2_Vore_General</displayCategory>
-        <displayOrderInCategory>22</displayOrderInCategory>
-        <biostatMet>0</biostatMet>
-    </GeneDef>
+        </comps>
+    </HediffDef>
 </Defs>

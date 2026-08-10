@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Indigestible -->
+  <RV2_Gene_QuirkForce_Cheat_Indigestible.label>不可消化</RV2_Gene_QuirkForce_Cheat_Indigestible.label>
+  <!-- EN: This pawn is immune to digestion. Not immune to bullets, blades, explosions, or\n            even external acid sprays, but certainly immune to digestion. -->
+  <RV2_Gene_QuirkForce_Cheat_Indigestible.description>这个角色完全不会被消化。子弹、刀剑、爆炸、甚至泼到身上的强酸都能要他的命，唯独消化液对他无可奈何。</RV2_Gene_QuirkForce_Cheat_Indigestible.description>
+  
+  <!-- EN: Instant digestion -->
+  <RV2_Gene_QuirkForce_Cheat_InstantDigestion.label>瞬间消化</RV2_Gene_QuirkForce_Cheat_InstantDigestion.label>
+  <!-- EN: Only the pawn-tron reduces an entire preything into soup-like homogenate in 30\n            seconds. -->
+  <RV2_Gene_QuirkForce_Cheat_InstantDigestion.description>这个角色能做到——把一整只猎物在30秒内化为汤汁般的匀浆。</RV2_Gene_QuirkForce_Cheat_InstantDigestion.description>
+  
+  <!-- EN: Melty -->
+  <RV2_Gene_QuirkForce_DigestionResistance_Bad.label>易溶体质</RV2_Gene_QuirkForce_DigestionResistance_Bad.label>
+  <!-- EN: This pawn melts under acid easily and won't last more than half as long in a\n            hostile belly as most prey. -->
+  <RV2_Gene_QuirkForce_DigestionResistance_Bad.description>这个角色在酸液里溶解得飞快，落入敌胃后存活时间还不到普通猎物的一半。</RV2_Gene_QuirkForce_DigestionResistance_Bad.description>
+  
+  <!-- EN: Acid-resistant -->
+  <RV2_Gene_QuirkForce_DigestionResistance_Good.label>耐酸体质</RV2_Gene_QuirkForce_DigestionResistance_Good.label>
+  <!-- EN: This pawn resists digestion well, and will last about twice as long as most\n            prey in a hostile belly. -->
+  <RV2_Gene_QuirkForce_DigestionResistance_Good.description>这个角色对消化液有不错的抵抗力，被困在敌胃里时，存活时间大约是普通猎物的两倍。</RV2_Gene_QuirkForce_DigestionResistance_Good.description>
+  
+  <!-- EN: Normal acid resistance -->
+  <RV2_Gene_QuirkForce_DigestionResistance_Normal.label>普通耐酸</RV2_Gene_QuirkForce_DigestionResistance_Normal.label>
+  <!-- EN: This pawn is digested as easily as anyone else. -->
+  <RV2_Gene_QuirkForce_DigestionResistance_Normal.description>这个角色的耐酸能力和普通人没什么两样，该化还是得化。</RV2_Gene_QuirkForce_DigestionResistance_Normal.description>
+  
+  <!-- EN: Cotton candy -->
+  <RV2_Gene_QuirkForce_DigestionResistance_VeryBad.label>入口即化</RV2_Gene_QuirkForce_DigestionResistance_VeryBad.label>
+  <!-- EN: This pawn falls apart in stomach acid like cotton candy, and doesn't fare any\n            better in other organs. They have maybe a quarter of the time to escape as normal prey. -->
+  <RV2_Gene_QuirkForce_DigestionResistance_VeryBad.description>这个角色在胃酸里就像棉花糖遇水——瞬间就散架了，到了其他消化器官里也好不到哪去。他们能用来逃命的时间，大概只有普通猎物的四分之一。</RV2_Gene_QuirkForce_DigestionResistance_VeryBad.description>
+  
+  <!-- EN: Acid-proof -->
+  <RV2_Gene_QuirkForce_DigestionResistance_VeryGood.label>强酸抗性</RV2_Gene_QuirkForce_DigestionResistance_VeryGood.label>
+  <!-- EN: This pawn is very difficult to digest. Not impossible, but it'll take a while;\n            about four times as long as most prey. -->
+  <RV2_Gene_QuirkForce_DigestionResistance_VeryGood.description>这个角色极难被消化——倒也不是完全消化不掉，只是需要相当长的时间，大概是普通猎物的四倍之久。</RV2_Gene_QuirkForce_DigestionResistance_VeryGood.description>
+  
+  <!-- EN: Weak acid -->
+  <RV2_Gene_QuirkForce_DigestionStrength_Bad.label>弱酸胃液</RV2_Gene_QuirkForce_DigestionStrength_Bad.label>
+  <!-- EN: This pawn takes about twice as long to digest live meals as most predators. -->
+  <RV2_Gene_QuirkForce_DigestionStrength_Bad.description>这个角色消化活体猎物的速度比大多数捕食者慢了一倍，大概需要两倍的时间才能搞定一顿饭。</RV2_Gene_QuirkForce_DigestionStrength_Bad.description>
+  
+  <!-- EN: Godlike Digestion -->
+  <RV2_Gene_QuirkForce_DigestionStrength_Godlike.label>神之消化</RV2_Gene_QuirkForce_DigestionStrength_Godlike.label>
+  <!-- EN: Whether due to magic or a technology that's not yet understood, this pawn's\n            digestive abilities are in a class of their own, capable of liquifying an entire Thrumbo\n            in minutes. -->
+  <RV2_Gene_QuirkForce_DigestionStrength_Godlike.description>无论是魔法还是某种未知科技在起作用，这个角色的消化能力都堪称超凡脱俗——几分钟内就能把一整只敲击兽化为液态。</RV2_Gene_QuirkForce_DigestionStrength_Godlike.description>
+  
+  <!-- EN: Potent acid -->
+  <RV2_Gene_QuirkForce_DigestionStrength_Good.label>强效胃酸</RV2_Gene_QuirkForce_DigestionStrength_Good.label>
+  <!-- EN: This pawn can digest prey about twice as fast as most predators. -->
+  <RV2_Gene_QuirkForce_DigestionStrength_Good.description>这个角色消化猎物的速度比大多数捕食者快上一倍，效率惊人。</RV2_Gene_QuirkForce_DigestionStrength_Good.description>
+  
+  <!-- EN: Normal acid strength -->
+  <RV2_Gene_QuirkForce_DigestionStrength_Normal.label>普通胃酸</RV2_Gene_QuirkForce_DigestionStrength_Normal.label>
+  <!-- EN: This pawn digests prey at a normal speed. -->
+  <RV2_Gene_QuirkForce_DigestionStrength_Normal.description>这个角色的消化速度属于正常水平，不快也不慢。</RV2_Gene_QuirkForce_DigestionStrength_Normal.description>
+  
+  <!-- EN: Watery acid -->
+  <RV2_Gene_QuirkForce_DigestionStrength_VeryBad.label>稀薄胃酸</RV2_Gene_QuirkForce_DigestionStrength_VeryBad.label>
+  <!-- EN: This pawn takes about four times as long to digest prey as most predators. This\n            pawn's food is liable to die of boredom before dying of melting. -->
+  <RV2_Gene_QuirkForce_DigestionStrength_VeryBad.description>这个角色消化猎物的速度慢得离谱，是大多数捕食者的四倍之久。照这个速度，猎物怕是还没被融化，就先在胃里等得无聊死了。</RV2_Gene_QuirkForce_DigestionStrength_VeryBad.description>
+  
+  <!-- EN: Scouring acid -->
+  <RV2_Gene_QuirkForce_DigestionStrength_VeryGood.label>强蚀胃酸</RV2_Gene_QuirkForce_DigestionStrength_VeryGood.label>
+  <!-- EN: This pawn can turn prey into nutrient soup in the blink of an eye- -or, at\n            least, four times as fast as most predators. -->
+  <RV2_Gene_QuirkForce_DigestionStrength_VeryGood.description>这个角色能在眨眼之间把猎物化为营养浓汤——至少，速度是大多数捕食者的四倍。</RV2_Gene_QuirkForce_DigestionStrength_VeryGood.description>
+  
+  <!-- EN: Unacerbic -->
+  <RV2_Gene_QuirkForce_Inability_PredEndoOnly.label>TODO</RV2_Gene_QuirkForce_Inability_PredEndoOnly.label>
+  <!-- EN: This pawn can't digest anyone- -not alive, at least. It has the stretchiness to swallow prey, but none of the acidity to melt them. For nutrition, it has to settle for normal food instead. -->
+  <RV2_Gene_QuirkForce_Inability_PredEndoOnly.description>TODO</RV2_Gene_QuirkForce_Inability_PredEndoOnly.description>
+  
+  <!-- EN: Hyperacerbic -->
+  <RV2_Gene_QuirkForce_Inability_PredFatalOnly.label>TODO</RV2_Gene_QuirkForce_Inability_PredFatalOnly.label>
+  <!-- EN: This pawn's innards are totally unsafe, no matter the hole. All roads lead to digestion. -->
+  <RV2_Gene_QuirkForce_Inability_PredFatalOnly.description>TODO</RV2_Gene_QuirkForce_Inability_PredFatalOnly.description>
+  
+  <!-- EN: Normal item damage -->
+  <RV2_Gene_QuirkForce_ItemDamage_Default.label>TODO</RV2_Gene_QuirkForce_ItemDamage_Default.label>
+  <!-- EN: This pawn damages clothing and implants to a normal degree. The stomach wasn't necessarily designed to digest tough fiber and machined plasteel, but neither were clothes and delicate mechanisms necessarily designed to survive a long acid bath. -->
+  <RV2_Gene_QuirkForce_ItemDamage_Default.description>TODO</RV2_Gene_QuirkForce_ItemDamage_Default.description>
+  
+  <!-- EN: Fiber-friendly digestion -->
+  <RV2_Gene_QuirkForce_ItemDamage_FiberFriendly.label>TODO</RV2_Gene_QuirkForce_ItemDamage_FiberFriendly.label>
+  <!-- EN: This pawn's digestive system isn't all that harsh on clothing and other accessories its gurgled prey might have. That's not to say that they'll come out completely unscathed, however. -->
+  <RV2_Gene_QuirkForce_ItemDamage_FiberFriendly.description>TODO</RV2_Gene_QuirkForce_ItemDamage_FiberFriendly.description>
+  
+  <!-- EN: Mothlike digestion -->
+  <RV2_Gene_QuirkForce_ItemDamage_Moth.label>TODO</RV2_Gene_QuirkForce_ItemDamage_Moth.label>
+  <!-- EN: This pawn has a habit of melting the clothes and prosthetics off its prey when digesting them. Their innards are just so harsh on such petty accessories. -->
+  <RV2_Gene_QuirkForce_ItemDamage_Moth.description>TODO</RV2_Gene_QuirkForce_ItemDamage_Moth.description>
+  
+  <!-- EN: Spotless digestion -->
+  <RV2_Gene_QuirkForce_ItemDamage_Spotless.label>TODO</RV2_Gene_QuirkForce_ItemDamage_Spotless.label>
+  <!-- EN: This pawn has such a clean and purpose-driven digestive system that it can digest prey clean out of their clothes, leaving such vestments not only undamaged, but just as spotless as when they were donned. The same goes for implants and so on. -->
+  <RV2_Gene_QuirkForce_ItemDamage_Spotless.description>TODO</RV2_Gene_QuirkForce_ItemDamage_Spotless.description>
+  
+  <!-- EN: Traceless digestion -->
+  <RV2_Gene_QuirkForce_ItemDamage_Traceless.label>TODO</RV2_Gene_QuirkForce_ItemDamage_Traceless.label>
+  <!-- EN: This pawn leaves no trace of its prey when it is done digesting. Clothing, implants, power armor? It all turns to mush, if anything at all. -->
+  <RV2_Gene_QuirkForce_ItemDamage_Traceless.description>TODO</RV2_Gene_QuirkForce_ItemDamage_Traceless.description>
+  
+</LanguageData>

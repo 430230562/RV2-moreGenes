@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-   <!-- ==================== Nutrition Efficiency (Predator) ==================== -->
+    <!-- ==================== Nutrition Efficiency (Predator) ==================== -->
     <GeneDef>
         <defName>RV2_Gene_QuirkForce_NutritionEfficiency_Godlike</defName>
         <label>Godlike Efficiency</label>
-        <description>Is it magic? Archotech implants? Who knows! At the end of the day, all that really matters is that this pawn is capable of feeding or fertilizing an entire colony on its own.</description>
+        <description>Is it magic? Archotech implants? Who knows! At the end of the day, all that
+            really matters is that this pawn is capable of feeding or fertilizing an entire colony
+            on its own.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
         <iconPath>UI/Icons/Genes/NutritionEfficiency/1</iconPath>
         <modExtensions>
@@ -26,7 +28,8 @@
     <GeneDef>
         <defName>RV2_Gene_QuirkForce_NutritionEfficiency_VeryGood</defName>
         <label>Industrial efficiency</label>
-        <description>This pawn is about twice as efficient at gaining nourishment and producing materials from prey as other predators. It uses the whole muffalo.</description>
+        <description>This pawn is about twice as efficient at gaining nourishment and producing
+            materials from prey as other predators. It uses the whole muffalo.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
         <iconPath>UI/Icons/Genes/NutritionEfficiency/2</iconPath>
         <modExtensions>
@@ -48,7 +51,9 @@
     <GeneDef>
         <defName>RV2_Gene_QuirkForce_NutritionEfficiency_Good</defName>
         <label>Efficient</label>
-        <description>This pawn is about 150% as efficient at gaining nourishment and producing materials from prey as other predators. Its body just knows how to coax a little more nutrition out of the marrows and ligaments of its prey.</description>
+        <description>This pawn is about 150% as efficient at gaining nourishment and producing
+            materials from prey as other predators. Its body just knows how to coax a little more
+            nutrition out of the marrows and ligaments of its prey.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
         <iconPath>UI/Icons/Genes/NutritionEfficiency/3</iconPath>
         <modExtensions>
@@ -88,13 +93,15 @@
         <displayOrderInCategory>14</displayOrderInCategory>
         <biostatMet>0</biostatMet>
         <biostatCpx>0</biostatCpx>
-        <hidden>true</hidden>
+
     </GeneDef>
 
     <GeneDef>
         <defName>RV2_Gene_QuirkForce_NutritionEfficiency_Bad</defName>
         <label>Inefficient</label>
-        <description>This pawn is about 75% as efficient at gaining nourishment and producing materials from prey as other predators. Its body just isn't as good at breaking down all those tough, unchewed tissues into something nutritious.</description>
+        <description>This pawn is about 75% as efficient at gaining nourishment and producing
+            materials from prey as other predators. Its body just isn't as good at breaking down all
+            those tough, unchewed tissues into something nutritious.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
         <iconPath>UI/Icons/Genes/NutritionEfficiency/5</iconPath>
         <modExtensions>
@@ -116,7 +123,8 @@
     <GeneDef>
         <defName>RV2_Gene_QuirkForce_NutritionEfficiency_VeryBad</defName>
         <label>Very inefficient</label>
-        <description>This pawn is about half as efficient at gaining nourishment and producing materials from prey as other predators. It needs to eat a lot of people to stay full.</description>
+        <description>This pawn is about half as efficient at gaining nourishment and producing
+            materials from prey as other predators. It needs to eat a lot of people to stay full.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
         <iconPath>UI/Icons/Genes/NutritionEfficiency/6</iconPath>
         <modExtensions>
@@ -139,7 +147,8 @@
     <GeneDef>
         <defName>RV2_Gene_QuirkForce_PreyNutrition_VeryGood</defName>
         <label>Very nutritious</label>
-        <description>This pawn is about twice as nutritious as other prey. The best kind of ration around!</description>
+        <description>This pawn is about twice as nutritious as other prey. The best kind of ration
+            around!</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
         <iconPath>UI/Icons/Genes/PreyNutrition/1</iconPath>
         <modExtensions>
@@ -161,7 +170,8 @@
     <GeneDef>
         <defName>RV2_Gene_QuirkForce_PreyNutrition_Good</defName>
         <label>Nutritious</label>
-        <description>This pawn is about 150% as nutritious as other prey. It'll keep a pred full for a while.</description>
+        <description>This pawn is about 150% as nutritious as other prey. It'll keep a pred full for
+            a while.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
         <iconPath>UI/Icons/Genes/PreyNutrition/2</iconPath>
         <modExtensions>
@@ -201,13 +211,14 @@
         <displayOrderInCategory>19</displayOrderInCategory>
         <biostatMet>0</biostatMet>
         <biostatCpx>0</biostatCpx>
-        <hidden>true</hidden>
+
     </GeneDef>
 
     <GeneDef>
         <defName>RV2_Gene_QuirkForce_PreyNutrition_Bad</defName>
         <label>Unnutritious</label>
-        <description>This pawn is about 75% as nutritious as other prey. It wouldn't make for good livestock.</description>
+        <description>This pawn is about 75% as nutritious as other prey. It wouldn't make for good
+            livestock.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
         <iconPath>UI/Icons/Genes/PreyNutrition/4</iconPath>
         <modExtensions>
@@ -229,7 +240,8 @@
     <GeneDef>
         <defName>RV2_Gene_QuirkForce_PreyNutrition_VeryBad</defName>
         <label>Junk prey</label>
-        <description>This pawn is about half as nutritious as other prey. You'd get a better meal out of a vending machine.</description>
+        <description>This pawn is about half as nutritious as other prey. You'd get a better meal
+            out of a vending machine.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
         <iconPath>UI/Icons/Genes/PreyNutrition/5</iconPath>
         <modExtensions>

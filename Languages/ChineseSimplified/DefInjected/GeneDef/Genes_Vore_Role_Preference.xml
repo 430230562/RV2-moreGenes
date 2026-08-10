@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Feeder aversion -->
+  <RV2_Gene_QuirkForce_FeederDisposition_Dislikes.label>TODO</RV2_Gene_QuirkForce_FeederDisposition_Dislikes.label>
+  <!-- EN: This pawn dislikes hand-feeding predators and would rather the predator just got their food themself. -->
+  <RV2_Gene_QuirkForce_FeederDisposition_Dislikes.description>TODO</RV2_Gene_QuirkForce_FeederDisposition_Dislikes.description>
+  
+  <!-- EN: Feeder -->
+  <RV2_Gene_QuirkForce_FeederDisposition_Likes.label>TODO</RV2_Gene_QuirkForce_FeederDisposition_Likes.label>
+  <!-- EN: This pawn likes to help preds out with their hunting by fetching the prey for them. -->
+  <RV2_Gene_QuirkForce_FeederDisposition_Likes.description>TODO</RV2_Gene_QuirkForce_FeederDisposition_Likes.description>
+  
+  <!-- EN: Feeder ambivalence -->
+  <RV2_Gene_QuirkForce_FeederDisposition_Neutral.label>TODO</RV2_Gene_QuirkForce_FeederDisposition_Neutral.label>
+  <!-- EN: This pawn doesn't really care one way or the other about hand-feeding predators. -->
+  <RV2_Gene_QuirkForce_FeederDisposition_Neutral.description>TODO</RV2_Gene_QuirkForce_FeederDisposition_Neutral.description>
+  
+  <!-- EN: Frenzied feeder -->
+  <RV2_Gene_QuirkForce_FeederDisposition_Obsessed.label>TODO</RV2_Gene_QuirkForce_FeederDisposition_Obsessed.label>
+  <!-- EN: This pawn finds little in this world more rewarding than handling all the busywork for a predator, up to and including hand-feeding said pred some prey. -->
+  <RV2_Gene_QuirkForce_FeederDisposition_Obsessed.description>TODO</RV2_Gene_QuirkForce_FeederDisposition_Obsessed.description>
+  
+  <!-- EN: Unreceptive -->
+  <RV2_Gene_QuirkForce_FeederDisposition_Predator_Dislikes.label>TODO</RV2_Gene_QuirkForce_FeederDisposition_Predator_Dislikes.label>
+  <!-- EN: This pawn prefers to ask its own prey for vore. -->
+  <RV2_Gene_QuirkForce_FeederDisposition_Predator_Dislikes.description>TODO</RV2_Gene_QuirkForce_FeederDisposition_Predator_Dislikes.description>
+  
+  <!-- EN: Receptive -->
+  <RV2_Gene_QuirkForce_FeederDisposition_Predator_Likes.label>TODO</RV2_Gene_QuirkForce_FeederDisposition_Predator_Likes.label>
+  <!-- EN: This pawn likes the idea of having prey fed to them with no extra effort involved. -->
+  <RV2_Gene_QuirkForce_FeederDisposition_Predator_Likes.description>TODO</RV2_Gene_QuirkForce_FeederDisposition_Predator_Likes.description>
+  
+  <!-- EN: Ambivalence -->
+  <RV2_Gene_QuirkForce_FeederDisposition_Predator_Neutral.label>TODO</RV2_Gene_QuirkForce_FeederDisposition_Predator_Neutral.label>
+  <!-- EN: This pawn doesn't really care if they have to track down their own prey or be fed. -->
+  <RV2_Gene_QuirkForce_FeederDisposition_Predator_Neutral.description>TODO</RV2_Gene_QuirkForce_FeederDisposition_Predator_Neutral.description>
+  
+  <!-- EN: Spoonfed -->
+  <RV2_Gene_QuirkForce_FeederDisposition_Predator_Obsessed.label>TODO</RV2_Gene_QuirkForce_FeederDisposition_Predator_Obsessed.label>
+  <!-- EN: This pawn loves gobbling up prey, but hates the effort involved in chasing them down. Having someone else do it for them sounds delightful. -->
+  <RV2_Gene_QuirkForce_FeederDisposition_Predator_Obsessed.description>TODO</RV2_Gene_QuirkForce_FeederDisposition_Predator_Obsessed.description>
+  
+  <!-- EN: Picky Eater -->
+  <RV2_Gene_QuirkForce_FeederDisposition_Predator_Refuses.label>TODO</RV2_Gene_QuirkForce_FeederDisposition_Predator_Refuses.label>
+  <!-- EN: This pawn is fully grown and self-reliant. Feeding prey to it is insulting when it can just get the prey itself. -->
+  <RV2_Gene_QuirkForce_FeederDisposition_Predator_Refuses.description>TODO</RV2_Gene_QuirkForce_FeederDisposition_Predator_Refuses.description>
+  
+  <!-- EN: Fodder aversion -->
+  <RV2_Gene_QuirkForce_FeederDisposition_Prey_Dislikes.label>TODO</RV2_Gene_QuirkForce_FeederDisposition_Prey_Dislikes.label>
+  <!-- EN: This pawn doesn't want to be a bother, so they'd rather not have someone spend their time introducing them to a pred. -->
+  <RV2_Gene_QuirkForce_FeederDisposition_Prey_Dislikes.description>TODO</RV2_Gene_QuirkForce_FeederDisposition_Prey_Dislikes.description>
+  
+  <!-- EN: Snack -->
+  <RV2_Gene_QuirkForce_FeederDisposition_Prey_Likes.label>TODO</RV2_Gene_QuirkForce_FeederDisposition_Prey_Likes.label>
+  <!-- EN: This pawn likes blind dates with its predator. -->
+  <RV2_Gene_QuirkForce_FeederDisposition_Prey_Likes.description>TODO</RV2_Gene_QuirkForce_FeederDisposition_Prey_Likes.description>
+  
+  <!-- EN: Feeder ambivalence -->
+  <RV2_Gene_QuirkForce_FeederDisposition_Prey_Neutral.label>TODO</RV2_Gene_QuirkForce_FeederDisposition_Prey_Neutral.label>
+  <!-- EN: This pawn doesn't really care if it is being fed to someone. -->
+  <RV2_Gene_QuirkForce_FeederDisposition_Prey_Neutral.description>TODO</RV2_Gene_QuirkForce_FeederDisposition_Prey_Neutral.description>
+  
+  <!-- EN: Intro(vore)ted -->
+  <RV2_Gene_QuirkForce_FeederDisposition_Prey_Obsessed.label>TODO</RV2_Gene_QuirkForce_FeederDisposition_Prey_Obsessed.label>
+  <!-- EN: This pawn is extremely intro(vore)ted and needs someone else to hook it up to a predator. -->
+  <RV2_Gene_QuirkForce_FeederDisposition_Prey_Obsessed.description>TODO</RV2_Gene_QuirkForce_FeederDisposition_Prey_Obsessed.description>
+  
+  <!-- EN: Fodder refusal -->
+  <RV2_Gene_QuirkForce_FeederDisposition_Prey_Refuses.label>TODO</RV2_Gene_QuirkForce_FeederDisposition_Prey_Refuses.label>
+  <!-- EN: This pawn hates the idea of being fed to someone else. It wants to pick its own holes to jump into. -->
+  <RV2_Gene_QuirkForce_FeederDisposition_Prey_Refuses.description>TODO</RV2_Gene_QuirkForce_FeederDisposition_Prey_Refuses.description>
+  
+  <!-- EN: Feeder refusal -->
+  <RV2_Gene_QuirkForce_FeederDisposition_Refuses.label>TODO</RV2_Gene_QuirkForce_FeederDisposition_Refuses.label>
+  <!-- EN: This pawn hates hand-feeding predators and will not willingly do it. That's just an elaborate way to get eaten last. -->
+  <RV2_Gene_QuirkForce_FeederDisposition_Refuses.description>TODO</RV2_Gene_QuirkForce_FeederDisposition_Refuses.description>
+  
+  <!-- EN: Predatory aversion -->
+  <RV2_Gene_QuirkForce_PredatorDisposition_Dislikes.label>TODO</RV2_Gene_QuirkForce_PredatorDisposition_Dislikes.label>
+  <!-- EN: This pawn is not much of a predator and doesn't want to devour anyone. It'd have to be for convenience, survival, or really scratching an uncommon itch. -->
+  <RV2_Gene_QuirkForce_PredatorDisposition_Dislikes.description>TODO</RV2_Gene_QuirkForce_PredatorDisposition_Dislikes.description>
+  
+  <!-- EN: Predator -->
+  <RV2_Gene_QuirkForce_PredatorDisposition_Likes.label>TODO</RV2_Gene_QuirkForce_PredatorDisposition_Likes.label>
+  <!-- EN: This pawn is a predator, always scanning the scene for prey to devour. -->
+  <RV2_Gene_QuirkForce_PredatorDisposition_Likes.description>TODO</RV2_Gene_QuirkForce_PredatorDisposition_Likes.description>
+  
+  <!-- EN: Predatory ambivalence -->
+  <RV2_Gene_QuirkForce_PredatorDisposition_Neutral.label>TODO</RV2_Gene_QuirkForce_PredatorDisposition_Neutral.label>
+  <!-- EN: This pawn doesn't really care one way or the other about being a predator. -->
+  <RV2_Gene_QuirkForce_PredatorDisposition_Neutral.description>TODO</RV2_Gene_QuirkForce_PredatorDisposition_Neutral.description>
+  
+  <!-- EN: Ravenous predator -->
+  <RV2_Gene_QuirkForce_PredatorDisposition_Obsessed.label>TODO</RV2_Gene_QuirkForce_PredatorDisposition_Obsessed.label>
+  <!-- EN: This pawn imagines itself as an apex predator, sitting proud at the top of the food chain. It lives to prey on those around it. -->
+  <RV2_Gene_QuirkForce_PredatorDisposition_Obsessed.description>TODO</RV2_Gene_QuirkForce_PredatorDisposition_Obsessed.description>
+  
+  <!-- EN: Predatory refusal -->
+  <RV2_Gene_QuirkForce_PredatorDisposition_Refuses.label>TODO</RV2_Gene_QuirkForce_PredatorDisposition_Refuses.label>
+  <!-- EN: This pawn is not a predator and will never willingly devour anyone. -->
+  <RV2_Gene_QuirkForce_PredatorDisposition_Refuses.description>TODO</RV2_Gene_QuirkForce_PredatorDisposition_Refuses.description>
+  
+  <!-- EN: Preyish aversion -->
+  <RV2_Gene_QuirkForce_PreyDisposition_Dislikes.label>TODO</RV2_Gene_QuirkForce_PreyDisposition_Dislikes.label>
+  <!-- EN: This pawn isn't that interested in getting devoured. It'd have to be for convenience, survival, or really scratching an uncommon itch. -->
+  <RV2_Gene_QuirkForce_PreyDisposition_Dislikes.description>TODO</RV2_Gene_QuirkForce_PreyDisposition_Dislikes.description>
+  
+  <!-- EN: Prey -->
+  <RV2_Gene_QuirkForce_PreyDisposition_Likes.label>TODO</RV2_Gene_QuirkForce_PreyDisposition_Likes.label>
+  <!-- EN: This pawn is turned on by the prospect of being devoured alive, constantly scanning for some pred or other to scoop it up. -->
+  <RV2_Gene_QuirkForce_PreyDisposition_Likes.description>TODO</RV2_Gene_QuirkForce_PreyDisposition_Likes.description>
+  
+  <!-- EN: Preyish ambivalence -->
+  <RV2_Gene_QuirkForce_PreyDisposition_Neutral.label>TODO</RV2_Gene_QuirkForce_PreyDisposition_Neutral.label>
+  <!-- EN: This pawn doesn't really care one way or the other about being prey. -->
+  <RV2_Gene_QuirkForce_PreyDisposition_Neutral.description>TODO</RV2_Gene_QuirkForce_PreyDisposition_Neutral.description>
+  
+  <!-- EN: Preyslut -->
+  <RV2_Gene_QuirkForce_PreyDisposition_Obsessed.label>TODO</RV2_Gene_QuirkForce_PreyDisposition_Obsessed.label>
+  <!-- EN: This pawn is more comfortable inside of someone's body than outside. It would spend its whole life there if it could. -->
+  <RV2_Gene_QuirkForce_PreyDisposition_Obsessed.description>TODO</RV2_Gene_QuirkForce_PreyDisposition_Obsessed.description>
+  
+  <!-- EN: Preyish refusal -->
+  <RV2_Gene_QuirkForce_PreyDisposition_Refuses.label>TODO</RV2_Gene_QuirkForce_PreyDisposition_Refuses.label>
+  <!-- EN: This pawn has absolutely no desire to get devoured at all. It insists that it is not food. -->
+  <RV2_Gene_QuirkForce_PreyDisposition_Refuses.description>TODO</RV2_Gene_QuirkForce_PreyDisposition_Refuses.description>
+  
+</LanguageData>

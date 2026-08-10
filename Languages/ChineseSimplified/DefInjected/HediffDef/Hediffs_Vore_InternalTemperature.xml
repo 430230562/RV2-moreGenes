@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Absolute Zero -->
+  <RV2_Hediff_QuirkForce_InternalTemperature_AbsoluteZero.label>TODO</RV2_Hediff_QuirkForce_InternalTemperature_AbsoluteZero.label>
+  <!-- EN: This pawn's insides are at absolute zero (-273°C / -459°F), prey inside will be frozen solid instantly. -->
+  <RV2_Hediff_QuirkForce_InternalTemperature_AbsoluteZero.description>TODO</RV2_Hediff_QuirkForce_InternalTemperature_AbsoluteZero.description>
+  
+  <!-- EN: Cold -->
+  <RV2_Hediff_QuirkForce_InternalTemperature_Cold.label>TODO</RV2_Hediff_QuirkForce_InternalTemperature_Cold.label>
+  <!-- EN: This pawn's insides are colder than usual (12°C / 53.6°F), long vores may lead to pawns suffering from frostbite. -->
+  <RV2_Hediff_QuirkForce_InternalTemperature_Cold.description>TODO</RV2_Hediff_QuirkForce_InternalTemperature_Cold.description>
+  
+  <!-- EN: Freezer -->
+  <RV2_Hediff_QuirkForce_InternalTemperature_Freezing.label>TODO</RV2_Hediff_QuirkForce_InternalTemperature_Freezing.label>
+  <!-- EN: This pawn's insides are freezing (0°C / 32°F), some genetic mutation lowers them to freezing temperatures. -->
+  <RV2_Hediff_QuirkForce_InternalTemperature_Freezing.description>TODO</RV2_Hediff_QuirkForce_InternalTemperature_Freezing.description>
+  
+  <!-- EN: Hot guts -->
+  <RV2_Hediff_QuirkForce_InternalTemperature_Hot.label>TODO</RV2_Hediff_QuirkForce_InternalTemperature_Hot.label>
+  <!-- EN: This pawn's insides are dangerously hot (60°C / 140°F), any prey inside is liable to suffer from heatstroke. -->
+  <RV2_Hediff_QuirkForce_InternalTemperature_Hot.description>TODO</RV2_Hediff_QuirkForce_InternalTemperature_Hot.description>
+  
+  <!-- EN: Normal -->
+  <RV2_Hediff_QuirkForce_InternalTemperature_Normal.label>TODO</RV2_Hediff_QuirkForce_InternalTemperature_Normal.label>
+  <!-- EN: This pawn's insides are just as warm as any other pawns. -->
+  <RV2_Hediff_QuirkForce_InternalTemperature_Normal.description>TODO</RV2_Hediff_QuirkForce_InternalTemperature_Normal.description>
+  
+  <!-- EN: Scorching -->
+  <RV2_Hediff_QuirkForce_InternalTemperature_Scorching.label>TODO</RV2_Hediff_QuirkForce_InternalTemperature_Scorching.label>
+  <!-- EN: This pawn's insides are extremely hot (1000°C / 1832°F), any prey inside will be instantly cooked. -->
+  <RV2_Hediff_QuirkForce_InternalTemperature_Scorching.description>TODO</RV2_Hediff_QuirkForce_InternalTemperature_Scorching.description>
+  
+  <!-- EN: Warm -->
+  <RV2_Hediff_QuirkForce_InternalTemperature_Warm.label>TODO</RV2_Hediff_QuirkForce_InternalTemperature_Warm.label>
+  <!-- EN: This pawn's insides are warmer than usual insides (40°C / 104°F), prey inside may suffer from heatstroke after prolonged vore. -->
+  <RV2_Hediff_QuirkForce_InternalTemperature_Warm.description>TODO</RV2_Hediff_QuirkForce_InternalTemperature_Warm.description>
+  
+</LanguageData>

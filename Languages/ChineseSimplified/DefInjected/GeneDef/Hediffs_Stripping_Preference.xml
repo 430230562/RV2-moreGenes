@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Moth's tongue -->
+  <RV2_Gene_QuirkForce_StrippingPreference_Predator_MothTongue.label>TODO</RV2_Gene_QuirkForce_StrippingPreference_Predator_MothTongue.label>
+  <!-- EN: This pawn prefers the taste of fabric to skin (whether or not it actually enjoys fabric), and will keep its prey in whatever garb they come. -->
+  <RV2_Gene_QuirkForce_StrippingPreference_Predator_MothTongue.description>TODO</RV2_Gene_QuirkForce_StrippingPreference_Predator_MothTongue.description>
+  
+  <!-- EN: Hyphaphagic ambivalence -->
+  <RV2_Gene_QuirkForce_StrippingPreference_Predator_None.label>TODO</RV2_Gene_QuirkForce_StrippingPreference_Predator_None.label>
+  <!-- EN: This pawn does not care whether their prey is clothed or not. -->
+  <RV2_Gene_QuirkForce_StrippingPreference_Predator_None.description>TODO</RV2_Gene_QuirkForce_StrippingPreference_Predator_None.description>
+  
+  <!-- EN: Skin-taster -->
+  <RV2_Gene_QuirkForce_StrippingPreference_Predator_SkinTaster.label>TODO</RV2_Gene_QuirkForce_StrippingPreference_Predator_SkinTaster.label>
+  <!-- EN: This pawn savors the flavor of skin, and will always peel the wrapper off its prey, if given the opportunity. -->
+  <RV2_Gene_QuirkForce_StrippingPreference_Predator_SkinTaster.description>TODO</RV2_Gene_QuirkForce_StrippingPreference_Predator_SkinTaster.description>
+  
+  <!-- EN: Nevernude prey -->
+  <RV2_Gene_QuirkForce_StrippingPreference_Prey_NeverNude.label>TODO</RV2_Gene_QuirkForce_StrippingPreference_Prey_NeverNude.label>
+  <!-- EN: This pawn prefers to have a protective and modest layer of clothes between itself and its predator. -->
+  <RV2_Gene_QuirkForce_StrippingPreference_Prey_NeverNude.description>TODO</RV2_Gene_QuirkForce_StrippingPreference_Prey_NeverNude.description>
+  
+  <!-- EN: Clothing ambivalence -->
+  <RV2_Gene_QuirkForce_StrippingPreference_Prey_None.label>TODO</RV2_Gene_QuirkForce_StrippingPreference_Prey_None.label>
+  <!-- EN: This pawn does not care if they are nude or clothed when being devoured. -->
+  <RV2_Gene_QuirkForce_StrippingPreference_Prey_None.description>TODO</RV2_Gene_QuirkForce_StrippingPreference_Prey_None.description>
+  
+  <!-- EN: Commando prey -->
+  <RV2_Gene_QuirkForce_StrippingPreference_Prey_Nude.label>TODO</RV2_Gene_QuirkForce_StrippingPreference_Prey_Nude.label>
+  <!-- EN: This pawn hates it when a layer of sopping-wet clothes gets between itself and its predator. Leaving the clothes behind also makes washing up easier. -->
+  <RV2_Gene_QuirkForce_StrippingPreference_Prey_Nude.description>TODO</RV2_Gene_QuirkForce_StrippingPreference_Prey_Nude.description>
+  
+</LanguageData>
