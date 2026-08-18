@@ -470,4 +470,285 @@
         <displayOrderInCategory>120</displayOrderInCategory>
         <biostatMet>0</biostatMet>
     </GeneDef>
+
+    <!-- ==================== Warmup Speed - Cheat (ForcedOnly) ==================== -->
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_Cheat_SkipWarmup</defName>
+        <label>No Warmup</label>
+        <description>This pawn needn't to warmup, its organs are operating efficiently at all times,
+            ready to handle prey at any time.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/WarmupSpeed/33</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_Cheat_SkipWarmup</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>WarmupSpeed</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Digestion</displayCategory>
+        <displayOrderInCategory>33</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+
+    <!-- ==================== Absorption Speed ==================== -->
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_AbsorptionSpeed_Godlike</defName>
+        <label>Godlike Absorption</label>
+        <description>Through supernatural power or advanced bio-technology, this pawn absorbs energy
+            and matter instantly, gaining full benefits the moment digestion begins.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/AbsorptionSpeed/22</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_AbsorptionSpeed_Godlike</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>AbsorptionSpeed</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Digestion</displayCategory>
+        <displayOrderInCategory>22</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_AbsorptionSpeed_VeryGood</defName>
+        <label>Rapid Absorption</label>
+        <description>This pawn absorbs nutrients four times faster than most creatures, turning
+            digested matter into usable energy at extreme speed.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/AbsorptionSpeed/23</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_AbsorptionSpeed_VeryGood</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>AbsorptionSpeed</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Digestion</displayCategory>
+        <displayOrderInCategory>23</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_AbsorptionSpeed_Good</defName>
+        <label>Fast Absorption</label>
+        <description>This pawn absorbs nutrients twice as fast as the average predator.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/AbsorptionSpeed/24</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_AbsorptionSpeed_Good</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>AbsorptionSpeed</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Digestion</displayCategory>
+        <displayOrderInCategory>24</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_AbsorptionSpeed_Normal</defName>
+        <label>Normal absorption speed</label>
+        <description>This pawn absorbs nutrients at a standard, unmodified rate.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/AbsorptionSpeed/25</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_AbsorptionSpeed_Normal</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>AbsorptionSpeed</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Digestion</displayCategory>
+        <displayOrderInCategory>25</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+        <biostatCpx>0</biostatCpx>
+        <hidden>true</hidden>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_AbsorptionSpeed_Bad</defName>
+        <label>Slow Absorption</label>
+        <description>This pawn absorbs nutrients only half as fast as most predators, taking longer
+            to gain benefits from meals.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/AbsorptionSpeed/26</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_AbsorptionSpeed_Bad</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>AbsorptionSpeed</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Digestion</displayCategory>
+        <displayOrderInCategory>26</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_AbsorptionSpeed_VeryBad</defName>
+        <label>Sluggish Absorption</label>
+        <description>This pawn absorbs nutrients just one‑quarter as fast as normal, taking an
+            extremely long time to benefit from digestion.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/AbsorptionSpeed/27</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_AbsorptionSpeed_VeryBad</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>AbsorptionSpeed</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Digestion</displayCategory>
+        <displayOrderInCategory>27</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+
+    <!-- ==================== Warmup Speed ==================== -->
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_WarmupSpeed_VeryFast</defName>
+        <label>Blazing Warmup</label>
+        <description>This pawn warms up to act on prey extremely quickly, ready to pounce and
+            process them in record time.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/WarmupSpeed/28</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_WarmupSpeed_VeryFast</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>WarmupSpeed</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Digestion</displayCategory>
+        <displayOrderInCategory>28</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_WarmupSpeed_Fast</defName>
+        <label>Swift Warmup</label>
+        <description>This pawn warms up to prey faster than most predators, able to prepare for
+            digestion or capture with little delay.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/WarmupSpeed/29</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_WarmupSpeed_Fast</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>WarmupSpeed</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Digestion</displayCategory>
+        <displayOrderInCategory>29</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_WarmupSpeed_Normal</defName>
+        <label>Normal Warmup</label>
+        <description>This pawn warms up to prey at a standard rate, matching the pace of most
+            predatory peers.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/WarmupSpeed/30</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_WarmupSpeed_Normal</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>WarmupSpeed</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Digestion</displayCategory>
+        <displayOrderInCategory>30</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+        <biostatCpx>0</biostatCpx>
+        <hidden>true</hidden>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_WarmupSpeed_Slow</defName>
+        <label>Sluggish Warmup</label>
+        <description>This pawn warms up to act on prey slowly, taking longer than average to prepare
+            for capturing or digesting prey.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/WarmupSpeed/31</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_WarmupSpeed_Slow</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>WarmupSpeed</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Digestion</displayCategory>
+        <displayOrderInCategory>31</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_WarmupSpeed_VerySlow</defName>
+        <label>Glacial Warmup</label>
+        <description>This pawn warms up to prey extremely slowly, taking far longer than normal to
+            ready their predatory instincts and actions.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/WarmupSpeed/32</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_WarmupSpeed_VerySlow</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>WarmupSpeed</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Digestion</displayCategory>
+        <displayOrderInCategory>32</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
 </Defs>

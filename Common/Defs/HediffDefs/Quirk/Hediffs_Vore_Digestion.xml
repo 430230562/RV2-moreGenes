@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 
 <!-- 这不是一个高效的方法 -->
 <Defs>
@@ -7,7 +7,8 @@
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
         <defName>RV2_Hediff_QuirkForce_Cheat_Indigestible</defName>
         <label>Indigestible</label>
-        <description>This pawn is immune to digestion. Not immune to bullets, blades, explosions, or even external acid sprays, but certainly immune to digestion.</description>
+        <description>This pawn is immune to digestion. Not immune to bullets, blades, explosions, or
+            even external acid sprays, but certainly immune to digestion.</description>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
                 <quirks>
@@ -20,7 +21,8 @@
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
         <defName>RV2_Hediff_QuirkForce_DigestionResistance_VeryGood</defName>
         <label>Acid-proof</label>
-        <description>This pawn is very difficult to digest. Not impossible, but it'll take a while; about four times as long as most prey.</description>
+        <description>This pawn is very difficult to digest. Not impossible, but it'll take a while;
+            about four times as long as most prey.</description>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
                 <quirks>
@@ -33,7 +35,8 @@
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
         <defName>RV2_Hediff_QuirkForce_DigestionResistance_Good</defName>
         <label>Acid-resistant</label>
-        <description>This pawn resists digestion well, and will last about twice as long as most prey in a hostile belly.</description>
+        <description>This pawn resists digestion well, and will last about twice as long as most
+            prey in a hostile belly.</description>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
                 <quirks>
@@ -59,7 +62,8 @@
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
         <defName>RV2_Hediff_QuirkForce_DigestionResistance_Bad</defName>
         <label>Melty</label>
-        <description>This pawn melts under acid easily and won't last more than half as long in a hostile belly as most prey.</description>
+        <description>This pawn melts under acid easily and won't last more than half as long in a
+            hostile belly as most prey.</description>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
                 <quirks>
@@ -72,7 +76,8 @@
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
         <defName>RV2_Hediff_QuirkForce_DigestionResistance_VeryBad</defName>
         <label>Cotton candy</label>
-        <description>This pawn falls apart in stomach acid like cotton candy, and doesn't fare any better in other organs. They have maybe a quarter of the time to escape as normal prey.</description>
+        <description>This pawn falls apart in stomach acid like cotton candy, and doesn't fare any
+            better in other organs. They have maybe a quarter of the time to escape as normal prey.</description>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
                 <quirks>
@@ -86,7 +91,8 @@
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
         <defName>RV2_Hediff_QuirkForce_Cheat_InstantDigestion</defName>
         <label>Instant digestion</label>
-        <description>Only the pawn-tron reduces an entire preything into soup-like homogenate in 30 seconds.</description>
+        <description>Only the pawn-tron reduces an entire preything into soup-like homogenate in 30
+            seconds.</description>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
                 <quirks>
@@ -99,7 +105,9 @@
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
         <defName>RV2_Hediff_QuirkForce_DigestionStrength_Godlike</defName>
         <label>Godlike Digestion</label>
-        <description>Whether due to magic or a technology that's not yet understood, this pawn's digestive abilities are in a class of their own, capable of liquifying an entire Thrumbo in minutes.</description>
+        <description>Whether due to magic or a technology that's not yet understood, this pawn's
+            digestive abilities are in a class of their own, capable of liquifying an entire Thrumbo
+            in minutes.</description>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
                 <quirks>
@@ -112,7 +120,8 @@
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
         <defName>RV2_Hediff_QuirkForce_DigestionStrength_VeryGood</defName>
         <label>Scouring acid</label>
-        <description>This pawn can turn prey into nutrient soup in the blink of an eye--or, at least, four times as fast as most predators.</description>
+        <description>This pawn can turn prey into nutrient soup in the blink of an eye--or, at
+            least, four times as fast as most predators.</description>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
                 <quirks>
@@ -164,7 +173,8 @@
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
         <defName>RV2_Hediff_QuirkForce_DigestionStrength_VeryBad</defName>
         <label>Watery acid</label>
-        <description>This pawn takes about four times as long to digest prey as most predators. This pawn's food is liable to die of boredom before dying of melting.</description>
+        <description>This pawn takes about four times as long to digest prey as most predators. This
+            pawn's food is liable to die of boredom before dying of melting.</description>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
                 <quirks>
@@ -174,11 +184,13 @@
         </comps>
     </HediffDef>
 
-        <!-- ==================== Item Damage ==================== -->
+    <!-- ==================== Item Damage ==================== -->
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
         <defName>RV2_Hediff_QuirkForce_ItemDamage_Default</defName>
         <label>Normal item damage</label>
-        <description>This pawn damages clothing and implants to a normal degree. The stomach wasn't necessarily designed to digest tough fiber and machined plasteel, but neither were clothes and delicate mechanisms necessarily designed to survive a long acid bath.</description>
+        <description>This pawn damages clothing and implants to a normal degree. The stomach wasn't
+            necessarily designed to digest tough fiber and machined plasteel, but neither were
+            clothes and delicate mechanisms necessarily designed to survive a long acid bath.</description>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
                 <quirks>
@@ -191,7 +203,8 @@
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
         <defName>RV2_Hediff_QuirkForce_ItemDamage_Traceless</defName>
         <label>Traceless digestion</label>
-        <description>This pawn leaves no trace of its prey when it is done digesting. Clothing, implants, power armor? It all turns to mush, if anything at all.</description>
+        <description>This pawn leaves no trace of its prey when it is done digesting. Clothing,
+            implants, power armor? It all turns to mush, if anything at all.</description>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
                 <quirks>
@@ -204,7 +217,8 @@
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
         <defName>RV2_Hediff_QuirkForce_ItemDamage_Moth</defName>
         <label>Mothlike digestion</label>
-        <description>This pawn has a habit of melting the clothes and prosthetics off its prey when digesting them. Their innards are just so harsh on such petty accessories.</description>
+        <description>This pawn has a habit of melting the clothes and prosthetics off its prey when
+            digesting them. Their innards are just so harsh on such petty accessories.</description>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
                 <quirks>
@@ -217,7 +231,9 @@
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
         <defName>RV2_Hediff_QuirkForce_ItemDamage_FiberFriendly</defName>
         <label>Fiber-friendly digestion</label>
-        <description>This pawn's digestive system isn't all that harsh on clothing and other accessories its gurgled prey might have. That's not to say that they'll come out completely unscathed, however.</description>
+        <description>This pawn's digestive system isn't all that harsh on clothing and other
+            accessories its gurgled prey might have. That's not to say that they'll come out
+            completely unscathed, however.</description>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
                 <quirks>
@@ -230,7 +246,9 @@
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
         <defName>RV2_Hediff_QuirkForce_ItemDamage_Spotless</defName>
         <label>Spotless digestion</label>
-        <description>This pawn has such a clean and purpose-driven digestive system that it can digest prey clean out of their clothes, leaving such vestments not only undamaged, but just as spotless as when they were donned. The same goes for implants and so on.</description>
+        <description>This pawn has such a clean and purpose-driven digestive system that it can
+            digest prey clean out of their clothes, leaving such vestments not only undamaged, but
+            just as spotless as when they were donned. The same goes for implants and so on.</description>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
                 <quirks>
@@ -240,11 +258,13 @@
         </comps>
     </HediffDef>
 
-        <!-- ==================== Inabilities ==================== -->
+    <!-- ==================== Inabilities ==================== -->
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
         <defName>RV2_Hediff_QuirkForce_Inability_PredEndoOnly</defName>
         <label>Unacerbic</label>
-        <description>This pawn can't digest anyone--not alive, at least. It has the stretchiness to swallow prey, but none of the acidity to melt them. For nutrition, it has to settle for normal food instead.</description>
+        <description>This pawn can't digest anyone--not alive, at least. It has the stretchiness to
+            swallow prey, but none of the acidity to melt them. For nutrition, it has to settle for
+            normal food instead.</description>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
                 <quirks>
@@ -257,11 +277,181 @@
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
         <defName>RV2_Hediff_QuirkForce_Inability_PredFatalOnly</defName>
         <label>Hyperacerbic</label>
-        <description>This pawn's innards are totally unsafe, no matter the hole. All roads lead to digestion.</description>
+        <description>This pawn's innards are totally unsafe, no matter the hole. All roads lead to
+            digestion.</description>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
                 <quirks>
                     <li>Inability_PredFatalOnly</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <!-- ==================== Warmup Speed - Cheat (ForcedOnly) ==================== -->
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_Cheat_SkipWarmup</defName>
+        <label>No Warmup</label>
+        <description>This pawn needn't to warmup, its organs are operating efficiently at all times,
+            ready to handle prey at any time.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>Cheat_SkipWarmup</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <!-- ==================== Absorption Speed ==================== -->
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_AbsorptionSpeed_Godlike</defName>
+        <label>Godlike Absorption</label>
+        <description>Through supernatural power or advanced bio-technology, this pawn absorbs energy
+            and matter instantly, gaining full benefits the moment digestion begins.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>AbsorptionSpeed_Godlike</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_AbsorptionSpeed_VeryGood</defName>
+        <label>Rapid Absorption</label>
+        <description>This pawn absorbs nutrients four times faster than most creatures, turning
+            digested matter into usable energy at extreme speed.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>AbsorptionSpeed_VeryGood</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_AbsorptionSpeed_Good</defName>
+        <label>Fast Absorption</label>
+        <description>This pawn absorbs nutrients twice as fast as the average predator.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>AbsorptionSpeed_Good</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_AbsorptionSpeed_Normal</defName>
+        <label>Normal absorption speed</label>
+        <description>This pawn absorbs nutrients at a standard, unmodified rate.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>AbsorptionSpeed_Normal</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_AbsorptionSpeed_Bad</defName>
+        <label>Slow Absorption</label>
+        <description>This pawn absorbs nutrients only half as fast as most predators, taking longer
+            to gain benefits from meals.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>AbsorptionSpeed_Bad</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_AbsorptionSpeed_VeryBad</defName>
+        <label>Sluggish Absorption</label>
+        <description>This pawn absorbs nutrients just one‑quarter as fast as normal, taking an
+            extremely long time to benefit from digestion.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>AbsorptionSpeed_VeryBad</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <!-- ==================== Warmup Speed ==================== -->
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_WarmupSpeed_VeryFast</defName>
+        <label>Blazing Warmup</label>
+        <description>This pawn warms up to act on prey extremely quickly, ready to pounce and
+            process them in record time.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>WarmupSpeed_VeryFast</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_WarmupSpeed_Fast</defName>
+        <label>Swift Warmup</label>
+        <description>This pawn warms up to prey faster than most predators, able to prepare for
+            digestion or capture with little delay.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>WarmupSpeed_Fast</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_WarmupSpeed_Normal</defName>
+        <label>Normal Warmup</label>
+        <description>This pawn warms up to prey at a standard rate, matching the pace of most
+            predatory peers.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>WarmupSpeed_Normal</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_WarmupSpeed_Slow</defName>
+        <label>Sluggish Warmup</label>
+        <description>This pawn warms up to act on prey slowly, taking longer than average to prepare
+            for capturing or digesting prey.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>WarmupSpeed_Slow</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_WarmupSpeed_VerySlow</defName>
+        <label>Glacial Warmup</label>
+        <description>This pawn warms up to prey extremely slowly, taking far longer than normal to
+            ready their predatory instincts and actions.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>WarmupSpeed_VerySlow</li>
                 </quirks>
             </li>
         </comps>

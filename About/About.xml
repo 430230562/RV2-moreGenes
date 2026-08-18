@@ -11,31 +11,9 @@
 	</supportedVersions>
 	<modDependencies>
 		<li>
-			<packageId>Nabber.RimVore2</packageId>
-			<displayName>RimVore-2</displayName>
-			<downloadUrl>https://gitlab.com/Nabber/rimvore-2.git</downloadUrl>
-		</li>
-		<li>
-			<packageId>MamaHorseteeth.RimVore2ExtraVores</packageId>
-			<displayName>RimVore-2 (Overstuffed)</displayName>
-		</li>
-		<li>
-			<packageId>brrainz.harmony</packageId>
-			<displayName>Harmony</displayName>
-			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
-		</li>
-		<li>
-			<packageId>Ludeon.RimWorld.Biotech</packageId>
-			<displayName>Biotech</displayName>
-		</li>
-		<li>
-			<packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
-			<displayName>Vanilla Expanded Framework</displayName>
-			<steamWorkshopUrl>steam://url/CommunityFilePage/2023507013</steamWorkshopUrl>
-		</li>
-		<li>
 			<displayName>RimVore2-pardon's-Extend</displayName>
 			<packageId>Pardon.PRV2E</packageId>
+			<downloadUrl>https://github.com/430230562/rimvore2-pardon-extend.git</downloadUrl>
 		</li>
 	</modDependencies>
 	<incompatibleWith />

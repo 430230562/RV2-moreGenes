@@ -177,7 +177,8 @@
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
                     <li>
-                        RV2_Hediff_QuirkForce_DietaryPreference_Predator_Humanoids_Obsessed_NotCannibal</li>
+                        RV2_Hediff_QuirkForce_DietaryPreference_Predator_Humanoids_Obsessed_NotCannibal
+                    </li>
                 </hediffs>
                 <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
             </li>
